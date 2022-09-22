@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var2"/>
+    <input derivedFrom="MB:JSON_schema_in_json_file" path="/InputSchema.json" var="var"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var3"/>
+    <output derivedFrom="MB:JSON_schema_in_json_file" path="/gen/CompleteExampleOracleEBSFlow.Oracle_E-Business_Suite_Request.request.schema.json" var="var1"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="io" uri="http://www.ibm.com/iib/msl/json"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="CompleteExampleOracleEBSFlow_Mapping">
+        <input namespace="http://www.ibm.com/iib/msl/json" path="$var2/mb:msg(JSON,assembly,JSON,Properties)" var="ComIbmMessageAssembly_JSON">
+            <cast derivedFrom="MB:JSON_TYPE" path="$ComIbmMessageAssembly_JSON/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}InputSchema_JsonType" ref="var"/>
+        </input>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var3/mb:msg(JSON,assembly,JSON,Properties)" var="ComIbmMessageAssembly_JSON1">
+            <cast derivedFrom="MB:JSON_TYPE" path="$ComIbmMessageAssembly_JSON1/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}CompleteExampleOracleEBSFlow.Oracle_E-Business_Suite_Request.request.schema_JsonType" ref="var1"/>
+        </output>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/Properties"/>
+            <output path="$ComIbmMessageAssembly_JSON1/Properties"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/Responsibility"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/SOAHeader/Responsibility"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/ResponsibilityApplication"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/SOAHeader/RespApplication"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/SecurityGroup"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/SOAHeader/SecurityGroup"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/NLSLanguage"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/SOAHeader/NLSLanguage"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/OrgId"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/SOAHeader/OrgId"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/OrderNumber"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON/spath('Data',2)/P_ORDER_NUMBER"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

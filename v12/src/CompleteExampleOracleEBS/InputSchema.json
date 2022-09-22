@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Input",
+    "type": "object",
+    "properties": {
+    	"Responsibility": {
+    		"title": "Responsibility",
+    		"type": "string"
+    	},
+    	"ResponsibilityApplication": {
+    		"title": "ResponsibilityApplication",
+    		"type": "string"
+    	},
+    	"SecurityGroup": {
+    		"title": "SecurityGroup",
+    		"type": "string"
+    	},
+    	"NLSLanguage": {
+    		"title": "NLSLanguage",
+    		"type": "string"
+    	},
+    	"OrgId": {
+    		"title": "OrgId",
+    		"type": "string"
+    	},
+    	"OrderNumber": {
+    		"title": "OrderNumber",
+    		"type": "string"
+    	}
+   	 },
+    "required": ["Responsibility", "ResponsibilityApplication", "SecurityGroup", "NLSLanguage", "OrgId", "OrderNumber"]
+}

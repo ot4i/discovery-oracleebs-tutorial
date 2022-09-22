@@ -1,0 +1,6056 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "X_RETURN_STATUS": {
+      "title": "X Return Status",
+      "type": "string"
+    },
+    "X_MESSAGES": {
+      "title": "X Messages",
+      "type": "object",
+      "properties": {
+        "X_MESSAGES_ITEM": {
+          "title": "X Messages Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "MESSAGE_TEXT": {
+                "title": "Message Text",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_REC": {
+      "title": "X Header Rec",
+      "type": "object",
+      "properties": {
+        "ACCOUNTING_RULE_ID": {
+          "title": "Accounting Rule Id",
+          "type": "string"
+        },
+        "AGREEMENT_ID": {
+          "title": "Agreement Id",
+          "type": "string"
+        },
+        "ATTRIBUTE1": {
+          "title": "Attribute1",
+          "type": "string"
+        },
+        "ATTRIBUTE2": {
+          "title": "Attribute2",
+          "type": "string"
+        },
+        "ATTRIBUTE3": {
+          "title": "Attribute3",
+          "type": "string"
+        },
+        "ATTRIBUTE4": {
+          "title": "Attribute4",
+          "type": "string"
+        },
+        "ATTRIBUTE5": {
+          "title": "Attribute5",
+          "type": "string"
+        },
+        "BOOKED_FLAG": {
+          "title": "Booked Flag",
+          "type": "string"
+        },
+        "CANCELLED_FLAG": {
+          "title": "Cancelled Flag",
+          "type": "string"
+        },
+        "CONTEXT": {
+          "title": "Context",
+          "type": "string"
+        },
+        "CONVERSION_RATE": {
+          "title": "Conversion Rate",
+          "type": "string"
+        },
+        "CONVERSION_RATE_DATE": {
+          "title": "Conversion Rate Date",
+          "type": "string"
+        },
+        "CONVERSION_TYPE_CODE": {
+          "title": "Conversion Type Code",
+          "type": "string"
+        },
+        "CUSTOMER_PREFERENCE_SET_CODE": {
+          "title": "Customer Preference Set Code",
+          "type": "string"
+        },
+        "CREATED_BY": {
+          "title": "Created By",
+          "type": "string"
+        },
+        "CREATION_DATE": {
+          "title": "Creation Date",
+          "type": "string"
+        },
+        "CUST_PO_NUMBER": {
+          "title": "Cust Po Number",
+          "type": "string"
+        },
+        "DELIVER_TO_CONTACT_ID": {
+          "title": "Deliver To Contact Id",
+          "type": "string"
+        },
+        "DELIVER_TO_ORG_ID": {
+          "title": "Deliver To Org Id",
+          "type": "string"
+        },
+        "DEMAND_CLASS_CODE": {
+          "title": "Demand Class Code",
+          "type": "string"
+        },
+        "EARLIEST_SCHEDULE_LIMIT": {
+          "title": "Earliest Schedule Limit",
+          "type": "string"
+        },
+        "EXPIRATION_DATE": {
+          "title": "Expiration Date",
+          "type": "string"
+        },
+        "FOB_POINT_CODE": {
+          "title": "Fob Point Code",
+          "type": "string"
+        },
+        "FREIGHT_CARRIER_CODE": {
+          "title": "Freight Carrier Code",
+          "type": "string"
+        },
+        "FREIGHT_TERMS_CODE": {
+          "title": "Freight Terms Code",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE1": {
+          "title": "Global Attribute1",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE2": {
+          "title": "Global Attribute2",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE3": {
+          "title": "Global Attribute3",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE4": {
+          "title": "Global Attribute4",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE5": {
+          "title": "Global Attribute5",
+          "type": "string"
+        },
+        "GLOBAL_ATTRIBUTE_CATEGORY": {
+          "title": "Global Attribute Category",
+          "type": "string"
+        },
+        "TP_CONTEXT": {
+          "title": "Tp Context",
+          "type": "string"
+        },
+        "TP_ATTRIBUTE1": {
+          "title": "Tp Attribute1",
+          "type": "string"
+        },
+        "TP_ATTRIBUTE2": {
+          "title": "Tp Attribute2",
+          "type": "string"
+        },
+        "TP_ATTRIBUTE3": {
+          "title": "Tp Attribute3",
+          "type": "string"
+        },
+        "TP_ATTRIBUTE4": {
+          "title": "Tp Attribute4",
+          "type": "string"
+        },
+        "TP_ATTRIBUTE5": {
+          "title": "Tp Attribute5",
+          "type": "string"
+        },
+        "HEADER_ID": {
+          "title": "Header Id",
+          "type": "string"
+        },
+        "INVOICE_TO_CONTACT_ID": {
+          "title": "Invoice To Contact Id",
+          "type": "string"
+        },
+        "INVOICE_TO_ORG_ID": {
+          "title": "Invoice To Org Id",
+          "type": "string"
+        },
+        "INVOICING_RULE_ID": {
+          "title": "Invoicing Rule Id",
+          "type": "string"
+        },
+        "LAST_UPDATED_BY": {
+          "title": "Last Updated By",
+          "type": "string"
+        },
+        "LAST_UPDATE_DATE": {
+          "title": "Last Update Date",
+          "type": "string"
+        },
+        "LAST_UPDATE_LOGIN": {
+          "title": "Last Update Login",
+          "type": "string"
+        },
+        "LATEST_SCHEDULE_LIMIT": {
+          "title": "Latest Schedule Limit",
+          "type": "string"
+        },
+        "OPEN_FLAG": {
+          "title": "Open Flag",
+          "type": "string"
+        },
+        "ORDER_CATEGORY_CODE": {
+          "title": "Order Category Code",
+          "type": "string"
+        },
+        "ORDERED_DATE": {
+          "title": "Ordered Date",
+          "type": "string"
+        },
+        "ORDER_DATE_TYPE_CODE": {
+          "title": "Order Date Type Code",
+          "type": "string"
+        },
+        "ORDER_NUMBER": {
+          "title": "Order Number",
+          "type": "string"
+        },
+        "ORDER_SOURCE_ID": {
+          "title": "Order Source Id",
+          "type": "string"
+        },
+        "ORDER_TYPE_ID": {
+          "title": "Order Type Id",
+          "type": "string"
+        },
+        "ORG_ID": {
+          "title": "Org Id",
+          "type": "string"
+        },
+        "ORIG_SYS_DOCUMENT_REF": {
+          "title": "Orig Sys Document Ref",
+          "type": "string"
+        },
+        "PARTIAL_SHIPMENTS_ALLOWED": {
+          "title": "Partial Shipments Allowed",
+          "type": "string"
+        },
+        "PAYMENT_TERM_ID": {
+          "title": "Payment Term Id",
+          "type": "string"
+        },
+        "PRICE_LIST_ID": {
+          "title": "Price List Id",
+          "type": "string"
+        },
+        "PRICE_REQUEST_CODE": {
+          "title": "Price Request Code",
+          "type": "string"
+        },
+        "PRICING_DATE": {
+          "title": "Pricing Date",
+          "type": "string"
+        },
+        "PROGRAM_APPLICATION_ID": {
+          "title": "Program Application Id",
+          "type": "string"
+        },
+        "PROGRAM_ID": {
+          "title": "Program Id",
+          "type": "string"
+        },
+        "PROGRAM_UPDATE_DATE": {
+          "title": "Program Update Date",
+          "type": "string"
+        },
+        "REQUEST_DATE": {
+          "title": "Request Date",
+          "type": "string"
+        },
+        "REQUEST_ID": {
+          "title": "Request Id",
+          "type": "string"
+        },
+        "RETURN_REASON_CODE": {
+          "title": "Return Reason Code",
+          "type": "string"
+        },
+        "SALESREP_ID": {
+          "title": "Salesrep Id",
+          "type": "string"
+        },
+        "SALES_CHANNEL_CODE": {
+          "title": "Sales Channel Code",
+          "type": "string"
+        },
+        "SHIPMENT_PRIORITY_CODE": {
+          "title": "Shipment Priority Code",
+          "type": "string"
+        },
+        "SHIPPING_METHOD_CODE": {
+          "title": "Shipping Method Code",
+          "type": "string"
+        },
+        "SHIP_FROM_ORG_ID": {
+          "title": "Ship From Org Id",
+          "type": "string"
+        },
+        "SHIP_TOLERANCE_ABOVE": {
+          "title": "Ship Tolerance Above",
+          "type": "string"
+        },
+        "SHIP_TOLERANCE_BELOW": {
+          "title": "Ship Tolerance Below",
+          "type": "string"
+        },
+        "SHIP_TO_CONTACT_ID": {
+          "title": "Ship To Contact Id",
+          "type": "string"
+        },
+        "SHIP_TO_ORG_ID": {
+          "title": "Ship To Org Id",
+          "type": "string"
+        },
+        "SOLD_FROM_ORG_ID": {
+          "title": "Sold From Org Id",
+          "type": "string"
+        },
+        "SOLD_TO_CONTACT_ID": {
+          "title": "Sold To Contact Id",
+          "type": "string"
+        },
+        "SOLD_TO_ORG_ID": {
+          "title": "Sold To Org Id",
+          "type": "string"
+        },
+        "SOLD_TO_PHONE_ID": {
+          "title": "Sold To Phone Id",
+          "type": "string"
+        },
+        "SOURCE_DOCUMENT_ID": {
+          "title": "Source Document Id",
+          "type": "string"
+        },
+        "SOURCE_DOCUMENT_TYPE_ID": {
+          "title": "Source Document Type Id",
+          "type": "string"
+        },
+        "TAX_EXEMPT_FLAG": {
+          "title": "Tax Exempt Flag",
+          "type": "string"
+        },
+        "TAX_EXEMPT_NUMBER": {
+          "title": "Tax Exempt Number",
+          "type": "string"
+        },
+        "TAX_EXEMPT_REASON_CODE": {
+          "title": "Tax Exempt Reason Code",
+          "type": "string"
+        },
+        "TAX_POINT_CODE": {
+          "title": "Tax Point Code",
+          "type": "string"
+        },
+        "TRANSACTIONAL_CURR_CODE": {
+          "title": "Transactional Curr Code",
+          "type": "string"
+        },
+        "VERSION_NUMBER": {
+          "title": "Version Number",
+          "type": "string"
+        },
+        "RETURN_STATUS": {
+          "title": "Return Status",
+          "type": "string"
+        },
+        "DB_FLAG": {
+          "title": "Db Flag",
+          "type": "string"
+        },
+        "OPERATION": {
+          "title": "Operation",
+          "type": "string"
+        },
+        "FIRST_ACK_CODE": {
+          "title": "First Ack Code",
+          "type": "string"
+        },
+        "FIRST_ACK_DATE": {
+          "title": "First Ack Date",
+          "type": "string"
+        },
+        "LAST_ACK_CODE": {
+          "title": "Last Ack Code",
+          "type": "string"
+        },
+        "LAST_ACK_DATE": {
+          "title": "Last Ack Date",
+          "type": "string"
+        },
+        "CHANGE_REASON": {
+          "title": "Change Reason",
+          "type": "string"
+        },
+        "CHANGE_COMMENTS": {
+          "title": "Change Comments",
+          "type": "string"
+        },
+        "CHANGE_SEQUENCE": {
+          "title": "Change Sequence",
+          "type": "string"
+        },
+        "CHANGE_REQUEST_CODE": {
+          "title": "Change Request Code",
+          "type": "string"
+        },
+        "READY_FLAG": {
+          "title": "Ready Flag",
+          "type": "string"
+        },
+        "STATUS_FLAG": {
+          "title": "Status Flag",
+          "type": "string"
+        },
+        "FORCE_APPLY_FLAG": {
+          "title": "Force Apply Flag",
+          "type": "string"
+        },
+        "DROP_SHIP_FLAG": {
+          "title": "Drop Ship Flag",
+          "type": "string"
+        },
+        "CUSTOMER_PAYMENT_TERM_ID": {
+          "title": "Customer Payment Term Id",
+          "type": "string"
+        },
+        "PAYMENT_TYPE_CODE": {
+          "title": "Payment Type Code",
+          "type": "string"
+        },
+        "PAYMENT_AMOUNT": {
+          "title": "Payment Amount",
+          "type": "string"
+        },
+        "CHECK_NUMBER": {
+          "title": "Check Number",
+          "type": "string"
+        },
+        "CREDIT_CARD_CODE": {
+          "title": "Credit Card Code",
+          "type": "string"
+        },
+        "CREDIT_CARD_HOLDER_NAME": {
+          "title": "Credit Card Holder Name",
+          "type": "string"
+        },
+        "CREDIT_CARD_NUMBER": {
+          "title": "Credit Card Number",
+          "type": "string"
+        },
+        "CREDIT_CARD_EXPIRATION_DATE": {
+          "title": "Credit Card Expiration Date",
+          "type": "string"
+        },
+        "CREDIT_CARD_APPROVAL_CODE": {
+          "title": "Credit Card Approval Code",
+          "type": "string"
+        },
+        "CREDIT_CARD_APPROVAL_DATE": {
+          "title": "Credit Card Approval Date",
+          "type": "string"
+        },
+        "SHIPPING_INSTRUCTIONS": {
+          "title": "Shipping Instructions",
+          "type": "string"
+        },
+        "PACKING_INSTRUCTIONS": {
+          "title": "Packing Instructions",
+          "type": "string"
+        },
+        "FLOW_STATUS_CODE": {
+          "title": "Flow Status Code",
+          "type": "string"
+        },
+        "BOOKED_DATE": {
+          "title": "Booked Date",
+          "type": "string"
+        },
+        "MARKETING_SOURCE_CODE_ID": {
+          "title": "Marketing Source Code Id",
+          "type": "string"
+        },
+        "UPGRADED_FLAG": {
+          "title": "Upgraded Flag",
+          "type": "string"
+        },
+        "LOCK_CONTROL": {
+          "title": "Lock Control",
+          "type": "string"
+        },
+        "SHIP_TO_EDI_LOCATION_CODE": {
+          "title": "Ship To Edi Location Code",
+          "type": "string"
+        },
+        "SOLD_TO_EDI_LOCATION_CODE": {
+          "title": "Sold To Edi Location Code",
+          "type": "string"
+        },
+        "BILL_TO_EDI_LOCATION_CODE": {
+          "title": "Bill To Edi Location Code",
+          "type": "string"
+        },
+        "SHIP_FROM_EDI_LOCATION_CODE": {
+          "title": "Ship From Edi Location Code",
+          "type": "string"
+        },
+        "SHIP_FROM_ADDRESS_ID": {
+          "title": "Ship From Address Id",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS_ID": {
+          "title": "Sold To Address Id",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS_ID": {
+          "title": "Ship To Address Id",
+          "type": "string"
+        },
+        "INVOICE_ADDRESS_ID": {
+          "title": "Invoice Address Id",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS_CODE": {
+          "title": "Ship To Address Code",
+          "type": "string"
+        },
+        "XML_MESSAGE_ID": {
+          "title": "Xml Message Id",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_ID": {
+          "title": "Ship To Customer Id",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_ID": {
+          "title": "Invoice To Customer Id",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_ID": {
+          "title": "Deliver To Customer Id",
+          "type": "string"
+        },
+        "ACCOUNTING_RULE_DURATION": {
+          "title": "Accounting Rule Duration",
+          "type": "string"
+        },
+        "XML_TRANSACTION_TYPE_CODE": {
+          "title": "Xml Transaction Type Code",
+          "type": "string"
+        },
+        "BLANKET_NUMBER": {
+          "title": "Blanket Number",
+          "type": "string"
+        },
+        "LINE_SET_NAME": {
+          "title": "Line Set Name",
+          "type": "string"
+        },
+        "FULFILLMENT_SET_NAME": {
+          "title": "Fulfillment Set Name",
+          "type": "string"
+        },
+        "DEFAULT_FULFILLMENT_SET": {
+          "title": "Default Fulfillment Set",
+          "type": "string"
+        },
+        "QUOTE_DATE": {
+          "title": "Quote Date",
+          "type": "string"
+        },
+        "QUOTE_NUMBER": {
+          "title": "Quote Number",
+          "type": "string"
+        },
+        "SALES_DOCUMENT_NAME": {
+          "title": "Sales Document Name",
+          "type": "string"
+        },
+        "TRANSACTION_PHASE_CODE": {
+          "title": "Transaction Phase Code",
+          "type": "string"
+        },
+        "USER_STATUS_CODE": {
+          "title": "User Status Code",
+          "type": "string"
+        },
+        "DRAFT_SUBMITTED_FLAG": {
+          "title": "Draft Submitted Flag",
+          "type": "string"
+        },
+        "SOURCE_DOCUMENT_VERSION_NUMBER": {
+          "title": "Source Document Version Number",
+          "type": "string"
+        },
+        "SOLD_TO_SITE_USE_ID": {
+          "title": "Sold To Site Use Id",
+          "type": "string"
+        },
+        "MINISITE_ID": {
+          "title": "Minisite Id",
+          "type": "string"
+        },
+        "IB_OWNER": {
+          "title": "Ib Owner",
+          "type": "string"
+        },
+        "IB_INSTALLED_AT_LOCATION": {
+          "title": "Ib Installed At Location",
+          "type": "string"
+        },
+        "IB_CURRENT_LOCATION": {
+          "title": "Ib Current Location",
+          "type": "string"
+        },
+        "END_CUSTOMER_ID": {
+          "title": "End Customer Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_CONTACT_ID": {
+          "title": "End Customer Contact Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_USE_ID": {
+          "title": "End Customer Site Use Id",
+          "type": "string"
+        },
+        "SUPPLIER_SIGNATURE": {
+          "title": "Supplier Signature",
+          "type": "string"
+        },
+        "SUPPLIER_SIGNATURE_DATE": {
+          "title": "Supplier Signature Date",
+          "type": "string"
+        },
+        "CUSTOMER_SIGNATURE": {
+          "title": "Customer Signature",
+          "type": "string"
+        },
+        "CUSTOMER_SIGNATURE_DATE": {
+          "title": "Customer Signature Date",
+          "type": "string"
+        },
+        "SOLD_TO_PARTY_ID": {
+          "title": "Sold To Party Id",
+          "type": "string"
+        },
+        "SOLD_TO_ORG_CONTACT_ID": {
+          "title": "Sold To Org Contact Id",
+          "type": "string"
+        },
+        "SHIP_TO_PARTY_ID": {
+          "title": "Ship To Party Id",
+          "type": "string"
+        },
+        "SHIP_TO_PARTY_SITE_ID": {
+          "title": "Ship To Party Site Id",
+          "type": "string"
+        },
+        "SHIP_TO_PARTY_SITE_USE_ID": {
+          "title": "Ship To Party Site Use Id",
+          "type": "string"
+        },
+        "DELIVER_TO_PARTY_ID": {
+          "title": "Deliver To Party Id",
+          "type": "string"
+        },
+        "DELIVER_TO_PARTY_SITE_ID": {
+          "title": "Deliver To Party Site Id",
+          "type": "string"
+        },
+        "DELIVER_TO_PARTY_SITE_USE_ID": {
+          "title": "Deliver To Party Site Use Id",
+          "type": "string"
+        },
+        "INVOICE_TO_PARTY_ID": {
+          "title": "Invoice To Party Id",
+          "type": "string"
+        },
+        "INVOICE_TO_PARTY_SITE_ID": {
+          "title": "Invoice To Party Site Id",
+          "type": "string"
+        },
+        "INVOICE_TO_PARTY_SITE_USE_ID": {
+          "title": "Invoice To Party Site Use Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_PARTY_ID": {
+          "title": "End Customer Party Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_PARTY_SITE_ID": {
+          "title": "End Customer Party Site Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_PARTY_SITE_USE_ID": {
+          "title": "End Customer Party Site Use Id",
+          "type": "string"
+        },
+        "END_CUSTOMER_PARTY_NUMBER": {
+          "title": "End Customer Party Number",
+          "type": "string"
+        },
+        "END_CUSTOMER_ORG_CONTACT_ID": {
+          "title": "End Customer Org Contact Id",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_PARTY_ID": {
+          "title": "Ship To Customer Party Id",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_PARTY_ID": {
+          "title": "Deliver To Customer Party Id",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_PARTY_ID": {
+          "title": "Invoice To Customer Party Id",
+          "type": "string"
+        },
+        "SHIP_TO_ORG_CONTACT_ID": {
+          "title": "Ship To Org Contact Id",
+          "type": "string"
+        },
+        "DELIVER_TO_ORG_CONTACT_ID": {
+          "title": "Deliver To Org Contact Id",
+          "type": "string"
+        },
+        "INVOICE_TO_ORG_CONTACT_ID": {
+          "title": "Invoice To Org Contact Id",
+          "type": "string"
+        },
+        "CONTRACT_TEMPLATE_ID": {
+          "title": "Contract Template Id",
+          "type": "string"
+        },
+        "CONTRACT_SOURCE_DOC_TYPE_CODE": {
+          "title": "Contract Source Doc Type Code",
+          "type": "string"
+        },
+        "CONTRACT_SOURCE_DOCUMENT_ID": {
+          "title": "Contract Source Document Id",
+          "type": "string"
+        },
+        "SOLD_TO_PARTY_NUMBER": {
+          "title": "Sold To Party Number",
+          "type": "string"
+        },
+        "SHIP_TO_PARTY_NUMBER": {
+          "title": "Ship To Party Number",
+          "type": "string"
+        },
+        "INVOICE_TO_PARTY_NUMBER": {
+          "title": "Invoice To Party Number",
+          "type": "string"
+        },
+        "DELIVER_TO_PARTY_NUMBER": {
+          "title": "Deliver To Party Number",
+          "type": "string"
+        },
+        "ORDER_FIRMED_DATE": {
+          "title": "Order Firmed Date",
+          "type": "string"
+        },
+        "PARTY_TYPE": {
+          "title": "Party Type",
+          "type": "string"
+        },
+        "INSTRUMENT_SECURITY_CODE": {
+          "title": "Instrument Security Code",
+          "type": "string"
+        },
+        "CC_INSTRUMENT_ID": {
+          "title": "Cc Instrument Id",
+          "type": "string"
+        },
+        "CC_INSTRUMENT_ASSIGNMENT_ID": {
+          "title": "Cc Instrument Assignment Id",
+          "type": "string"
+        },
+        "SOLD_TO_CUSTOMER_REF": {
+          "title": "Sold To Customer Ref",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_REF": {
+          "title": "Ship To Customer Ref",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_REF": {
+          "title": "Invoice To Customer Ref",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_REF": {
+          "title": "Deliver To Customer Ref",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS_REF": {
+          "title": "Ship To Address Ref",
+          "type": "string"
+        },
+        "INVOICE_TO_ADDRESS_REF": {
+          "title": "Invoice To Address Ref",
+          "type": "string"
+        },
+        "DELIVER_TO_ADDRESS_REF": {
+          "title": "Deliver To Address Ref",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS_REF": {
+          "title": "Sold To Address Ref",
+          "type": "string"
+        },
+        "SOLD_TO_CONTACT_REF": {
+          "title": "Sold To Contact Ref",
+          "type": "string"
+        },
+        "SHIP_TO_CONTACT_REF": {
+          "title": "Ship To Contact Ref",
+          "type": "string"
+        },
+        "INVOICE_TO_CONTACT_REF": {
+          "title": "Invoice To Contact Ref",
+          "type": "string"
+        },
+        "DELIVER_TO_CONTACT_REF": {
+          "title": "Deliver To Contact Ref",
+          "type": "string"
+        },
+        "CSR_USER_ID": {
+          "title": "Csr User Id",
+          "type": "string"
+        },
+        "CANCEL_UNSHIPPED_LINES": {
+          "title": "Cancel Unshipped Lines",
+          "type": "string"
+        }
+      }
+    },
+    "X_HEADER_VAL_REC": {
+      "title": "X Header Val Rec",
+      "type": "object",
+      "properties": {
+        "ACCOUNTING_RULE": {
+          "title": "Accounting Rule",
+          "type": "string"
+        },
+        "AGREEMENT": {
+          "title": "Agreement",
+          "type": "string"
+        },
+        "CONVERSION_TYPE": {
+          "title": "Conversion Type",
+          "type": "string"
+        },
+        "DELIVER_TO_ADDRESS1": {
+          "title": "Deliver To Address1",
+          "type": "string"
+        },
+        "DELIVER_TO_ADDRESS2": {
+          "title": "Deliver To Address2",
+          "type": "string"
+        },
+        "DELIVER_TO_ADDRESS3": {
+          "title": "Deliver To Address3",
+          "type": "string"
+        },
+        "DELIVER_TO_ADDRESS4": {
+          "title": "Deliver To Address4",
+          "type": "string"
+        },
+        "DELIVER_TO_CONTACT": {
+          "title": "Deliver To Contact",
+          "type": "string"
+        },
+        "DELIVER_TO_LOCATION": {
+          "title": "Deliver To Location",
+          "type": "string"
+        },
+        "DELIVER_TO_ORG": {
+          "title": "Deliver To Org",
+          "type": "string"
+        },
+        "DELIVER_TO_STATE": {
+          "title": "Deliver To State",
+          "type": "string"
+        },
+        "DELIVER_TO_CITY": {
+          "title": "Deliver To City",
+          "type": "string"
+        },
+        "DELIVER_TO_ZIP": {
+          "title": "Deliver To Zip",
+          "type": "string"
+        },
+        "DELIVER_TO_COUNTRY": {
+          "title": "Deliver To Country",
+          "type": "string"
+        },
+        "DELIVER_TO_COUNTY": {
+          "title": "Deliver To County",
+          "type": "string"
+        },
+        "DELIVER_TO_PROVINCE": {
+          "title": "Deliver To Province",
+          "type": "string"
+        },
+        "DEMAND_CLASS": {
+          "title": "Demand Class",
+          "type": "string"
+        },
+        "FOB_POINT": {
+          "title": "Fob Point",
+          "type": "string"
+        },
+        "FREIGHT_TERMS": {
+          "title": "Freight Terms",
+          "type": "string"
+        },
+        "INVOICE_TO_ADDRESS1": {
+          "title": "Invoice To Address1",
+          "type": "string"
+        },
+        "INVOICE_TO_ADDRESS2": {
+          "title": "Invoice To Address2",
+          "type": "string"
+        },
+        "INVOICE_TO_ADDRESS3": {
+          "title": "Invoice To Address3",
+          "type": "string"
+        },
+        "INVOICE_TO_ADDRESS4": {
+          "title": "Invoice To Address4",
+          "type": "string"
+        },
+        "INVOICE_TO_STATE": {
+          "title": "Invoice To State",
+          "type": "string"
+        },
+        "INVOICE_TO_CITY": {
+          "title": "Invoice To City",
+          "type": "string"
+        },
+        "INVOICE_TO_ZIP": {
+          "title": "Invoice To Zip",
+          "type": "string"
+        },
+        "INVOICE_TO_COUNTRY": {
+          "title": "Invoice To Country",
+          "type": "string"
+        },
+        "INVOICE_TO_COUNTY": {
+          "title": "Invoice To County",
+          "type": "string"
+        },
+        "INVOICE_TO_PROVINCE": {
+          "title": "Invoice To Province",
+          "type": "string"
+        },
+        "INVOICE_TO_CONTACT": {
+          "title": "Invoice To Contact",
+          "type": "string"
+        },
+        "INVOICE_TO_CONTACT_FIRST_NAME": {
+          "title": "Invoice To Contact First Name",
+          "type": "string"
+        },
+        "INVOICE_TO_CONTACT_LAST_NAME": {
+          "title": "Invoice To Contact Last Name",
+          "type": "string"
+        },
+        "INVOICE_TO_LOCATION": {
+          "title": "Invoice To Location",
+          "type": "string"
+        },
+        "INVOICE_TO_ORG": {
+          "title": "Invoice To Org",
+          "type": "string"
+        },
+        "INVOICING_RULE": {
+          "title": "Invoicing Rule",
+          "type": "string"
+        },
+        "ORDER_SOURCE": {
+          "title": "Order Source",
+          "type": "string"
+        },
+        "ORDER_TYPE": {
+          "title": "Order Type",
+          "type": "string"
+        },
+        "PAYMENT_TERM": {
+          "title": "Payment Term",
+          "type": "string"
+        },
+        "PRICE_LIST": {
+          "title": "Price List",
+          "type": "string"
+        },
+        "RETURN_REASON": {
+          "title": "Return Reason",
+          "type": "string"
+        },
+        "SALESREP": {
+          "title": "Salesrep",
+          "type": "string"
+        },
+        "SHIPMENT_PRIORITY": {
+          "title": "Shipment Priority",
+          "type": "string"
+        },
+        "SHIP_FROM_ADDRESS1": {
+          "title": "Ship From Address1",
+          "type": "string"
+        },
+        "SHIP_FROM_ADDRESS2": {
+          "title": "Ship From Address2",
+          "type": "string"
+        },
+        "SHIP_FROM_ADDRESS3": {
+          "title": "Ship From Address3",
+          "type": "string"
+        },
+        "SHIP_FROM_ADDRESS4": {
+          "title": "Ship From Address4",
+          "type": "string"
+        },
+        "SHIP_FROM_LOCATION": {
+          "title": "Ship From Location",
+          "type": "string"
+        },
+        "SHIP_FROM_CITY": {
+          "title": "Ship From City",
+          "type": "string"
+        },
+        "SHIP_FROM_POSTAL_CODE": {
+          "title": "Ship From Postal Code",
+          "type": "string"
+        },
+        "SHIP_FROM_COUNTRY": {
+          "title": "Ship From Country",
+          "type": "string"
+        },
+        "SHIP_FROM_REGION1": {
+          "title": "Ship From Region1",
+          "type": "string"
+        },
+        "SHIP_FROM_REGION2": {
+          "title": "Ship From Region2",
+          "type": "string"
+        },
+        "SHIP_FROM_REGION3": {
+          "title": "Ship From Region3",
+          "type": "string"
+        },
+        "SHIP_FROM_ORG": {
+          "title": "Ship From Org",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS1": {
+          "title": "Sold To Address1",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS2": {
+          "title": "Sold To Address2",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS3": {
+          "title": "Sold To Address3",
+          "type": "string"
+        },
+        "SOLD_TO_ADDRESS4": {
+          "title": "Sold To Address4",
+          "type": "string"
+        },
+        "SOLD_TO_STATE": {
+          "title": "Sold To State",
+          "type": "string"
+        },
+        "SOLD_TO_COUNTRY": {
+          "title": "Sold To Country",
+          "type": "string"
+        },
+        "SOLD_TO_ZIP": {
+          "title": "Sold To Zip",
+          "type": "string"
+        },
+        "SOLD_TO_COUNTY": {
+          "title": "Sold To County",
+          "type": "string"
+        },
+        "SOLD_TO_PROVINCE": {
+          "title": "Sold To Province",
+          "type": "string"
+        },
+        "SOLD_TO_CITY": {
+          "title": "Sold To City",
+          "type": "string"
+        },
+        "SOLD_TO_CONTACT_LAST_NAME": {
+          "title": "Sold To Contact Last Name",
+          "type": "string"
+        },
+        "SOLD_TO_CONTACT_FIRST_NAME": {
+          "title": "Sold To Contact First Name",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS1": {
+          "title": "Ship To Address1",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS2": {
+          "title": "Ship To Address2",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS3": {
+          "title": "Ship To Address3",
+          "type": "string"
+        },
+        "SHIP_TO_ADDRESS4": {
+          "title": "Ship To Address4",
+          "type": "string"
+        },
+        "SHIP_TO_STATE": {
+          "title": "Ship To State",
+          "type": "string"
+        },
+        "SHIP_TO_COUNTRY": {
+          "title": "Ship To Country",
+          "type": "string"
+        },
+        "SHIP_TO_ZIP": {
+          "title": "Ship To Zip",
+          "type": "string"
+        },
+        "SHIP_TO_COUNTY": {
+          "title": "Ship To County",
+          "type": "string"
+        },
+        "SHIP_TO_PROVINCE": {
+          "title": "Ship To Province",
+          "type": "string"
+        },
+        "SHIP_TO_CITY": {
+          "title": "Ship To City",
+          "type": "string"
+        },
+        "SHIP_TO_CONTACT": {
+          "title": "Ship To Contact",
+          "type": "string"
+        },
+        "SHIP_TO_CONTACT_LAST_NAME": {
+          "title": "Ship To Contact Last Name",
+          "type": "string"
+        },
+        "SHIP_TO_CONTACT_FIRST_NAME": {
+          "title": "Ship To Contact First Name",
+          "type": "string"
+        },
+        "SHIP_TO_LOCATION": {
+          "title": "Ship To Location",
+          "type": "string"
+        },
+        "SHIP_TO_ORG": {
+          "title": "Ship To Org",
+          "type": "string"
+        },
+        "SOLD_TO_CONTACT": {
+          "title": "Sold To Contact",
+          "type": "string"
+        },
+        "SOLD_TO_ORG": {
+          "title": "Sold To Org",
+          "type": "string"
+        },
+        "SOLD_FROM_ORG": {
+          "title": "Sold From Org",
+          "type": "string"
+        },
+        "TAX_EXEMPT": {
+          "title": "Tax Exempt",
+          "type": "string"
+        },
+        "TAX_EXEMPT_REASON": {
+          "title": "Tax Exempt Reason",
+          "type": "string"
+        },
+        "TAX_POINT": {
+          "title": "Tax Point",
+          "type": "string"
+        },
+        "CUSTOMER_PAYMENT_TERM": {
+          "title": "Customer Payment Term",
+          "type": "string"
+        },
+        "PAYMENT_TYPE": {
+          "title": "Payment Type",
+          "type": "string"
+        },
+        "CREDIT_CARD": {
+          "title": "Credit Card",
+          "type": "string"
+        },
+        "STATUS": {
+          "title": "Status",
+          "type": "string"
+        },
+        "FREIGHT_CARRIER": {
+          "title": "Freight Carrier",
+          "type": "string"
+        },
+        "SHIPPING_METHOD": {
+          "title": "Shipping Method",
+          "type": "string"
+        },
+        "ORDER_DATE_TYPE": {
+          "title": "Order Date Type",
+          "type": "string"
+        },
+        "CUSTOMER_NUMBER": {
+          "title": "Customer Number",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_NAME": {
+          "title": "Ship To Customer Name",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_NAME": {
+          "title": "Invoice To Customer Name",
+          "type": "string"
+        },
+        "SALES_CHANNEL": {
+          "title": "Sales Channel",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_NUMBER": {
+          "title": "Ship To Customer Number",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_NUMBER": {
+          "title": "Invoice To Customer Number",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_ID": {
+          "title": "Ship To Customer Id",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_ID": {
+          "title": "Invoice To Customer Id",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_ID": {
+          "title": "Deliver To Customer Id",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_NUMBER": {
+          "title": "Deliver To Customer Number",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_NAME": {
+          "title": "Deliver To Customer Name",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_NUMBER_OI": {
+          "title": "Deliver To Customer Number Oi",
+          "type": "string"
+        },
+        "DELIVER_TO_CUSTOMER_NAME_OI": {
+          "title": "Deliver To Customer Name Oi",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_NUMBER_OI": {
+          "title": "Ship To Customer Number Oi",
+          "type": "string"
+        },
+        "SHIP_TO_CUSTOMER_NAME_OI": {
+          "title": "Ship To Customer Name Oi",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_NUMBER_OI": {
+          "title": "Invoice To Customer Number Oi",
+          "type": "string"
+        },
+        "INVOICE_TO_CUSTOMER_NAME_OI": {
+          "title": "Invoice To Customer Name Oi",
+          "type": "string"
+        },
+        "USER_STATUS": {
+          "title": "User Status",
+          "type": "string"
+        },
+        "TRANSACTION_PHASE": {
+          "title": "Transaction Phase",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_ADDRESS1": {
+          "title": "Sold To Location Address1",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_ADDRESS2": {
+          "title": "Sold To Location Address2",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_ADDRESS3": {
+          "title": "Sold To Location Address3",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_ADDRESS4": {
+          "title": "Sold To Location Address4",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION": {
+          "title": "Sold To Location",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_CITY": {
+          "title": "Sold To Location City",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_STATE": {
+          "title": "Sold To Location State",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_POSTAL": {
+          "title": "Sold To Location Postal",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_COUNTRY": {
+          "title": "Sold To Location Country",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_COUNTY": {
+          "title": "Sold To Location County",
+          "type": "string"
+        },
+        "SOLD_TO_LOCATION_PROVINCE": {
+          "title": "Sold To Location Province",
+          "type": "string"
+        },
+        "END_CUSTOMER_NAME": {
+          "title": "End Customer Name",
+          "type": "string"
+        },
+        "END_CUSTOMER_NUMBER": {
+          "title": "End Customer Number",
+          "type": "string"
+        },
+        "END_CUSTOMER_CONTACT": {
+          "title": "End Customer Contact",
+          "type": "string"
+        },
+        "END_CUST_CONTACT_LAST_NAME": {
+          "title": "End Cust Contact Last Name",
+          "type": "string"
+        },
+        "END_CUST_CONTACT_FIRST_NAME": {
+          "title": "End Cust Contact First Name",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_ADDRESS1": {
+          "title": "End Customer Site Address1",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_ADDRESS2": {
+          "title": "End Customer Site Address2",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_ADDRESS3": {
+          "title": "End Customer Site Address3",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_ADDRESS4": {
+          "title": "End Customer Site Address4",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_STATE": {
+          "title": "End Customer Site State",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_COUNTRY": {
+          "title": "End Customer Site Country",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_LOCATION": {
+          "title": "End Customer Site Location",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_ZIP": {
+          "title": "End Customer Site Zip",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_COUNTY": {
+          "title": "End Customer Site County",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_PROVINCE": {
+          "title": "End Customer Site Province",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_CITY": {
+          "title": "End Customer Site City",
+          "type": "string"
+        },
+        "END_CUSTOMER_SITE_POSTAL_CODE": {
+          "title": "End Customer Site Postal Code",
+          "type": "string"
+        },
+        "BLANKET_AGREEMENT_NAME": {
+          "title": "Blanket Agreement Name",
+          "type": "string"
+        },
+        "IB_OWNER_DSP": {
+          "title": "Ib Owner Dsp",
+          "type": "string"
+        },
+        "IB_INSTALLED_AT_LOCATION_DSP": {
+          "title": "Ib Installed At Location Dsp",
+          "type": "string"
+        },
+        "IB_CURRENT_LOCATION_DSP": {
+          "title": "Ib Current Location Dsp",
+          "type": "string"
+        },
+        "CONTRACT_TEMPLATE": {
+          "title": "Contract Template",
+          "type": "string"
+        },
+        "CONTRACT_SOURCE": {
+          "title": "Contract Source",
+          "type": "string"
+        },
+        "AUTHORING_PARTY": {
+          "title": "Authoring Party",
+          "type": "string"
+        },
+        "ACCOUNT_DESCRIPTION": {
+          "title": "Account Description",
+          "type": "string"
+        },
+        "REGISTRY_ID": {
+          "title": "Registry Id",
+          "type": "string"
+        }
+      }
+    },
+    "X_HEADER_ADJ_TBL": {
+      "title": "X Header Adj Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_ADJ_TBL_ITEM": {
+          "title": "X Header Adj Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "AUTOMATIC_FLAG": {
+                "title": "Automatic Flag",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "DISCOUNT_ID": {
+                "title": "Discount Id",
+                "type": "string"
+              },
+              "DISCOUNT_LINE_ID": {
+                "title": "Discount Line Id",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PERCENT": {
+                "title": "Percent",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "ORIG_SYS_DISCOUNT_REF": {
+                "title": "Orig Sys Discount Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "LIST_HEADER_ID": {
+                "title": "List Header Id",
+                "type": "string"
+              },
+              "LIST_LINE_ID": {
+                "title": "List Line Id",
+                "type": "string"
+              },
+              "LIST_LINE_TYPE_CODE": {
+                "title": "List Line Type Code",
+                "type": "string"
+              },
+              "MODIFIER_MECHANISM_TYPE_CODE": {
+                "title": "Modifier Mechanism Type Code",
+                "type": "string"
+              },
+              "MODIFIED_FROM": {
+                "title": "Modified From",
+                "type": "string"
+              },
+              "MODIFIED_TO": {
+                "title": "Modified To",
+                "type": "string"
+              },
+              "UPDATED_FLAG": {
+                "title": "Updated Flag",
+                "type": "string"
+              },
+              "UPDATE_ALLOWED": {
+                "title": "Update Allowed",
+                "type": "string"
+              },
+              "APPLIED_FLAG": {
+                "title": "Applied Flag",
+                "type": "string"
+              },
+              "CHANGE_REASON_CODE": {
+                "title": "Change Reason Code",
+                "type": "string"
+              },
+              "CHANGE_REASON_TEXT": {
+                "title": "Change Reason Text",
+                "type": "string"
+              },
+              "OPERAND": {
+                "title": "Operand",
+                "type": "string"
+              },
+              "OPERAND_PER_PQTY": {
+                "title": "Operand Per Pqty",
+                "type": "string"
+              },
+              "ARITHMETIC_OPERATOR": {
+                "title": "Arithmetic Operator",
+                "type": "string"
+              },
+              "COST_ID": {
+                "title": "Cost Id",
+                "type": "string"
+              },
+              "TAX_CODE": {
+                "title": "Tax Code",
+                "type": "string"
+              },
+              "TAX_EXEMPT_FLAG": {
+                "title": "Tax Exempt Flag",
+                "type": "string"
+              },
+              "TAX_EXEMPT_NUMBER": {
+                "title": "Tax Exempt Number",
+                "type": "string"
+              },
+              "TAX_EXEMPT_REASON_CODE": {
+                "title": "Tax Exempt Reason Code",
+                "type": "string"
+              },
+              "PARENT_ADJUSTMENT_ID": {
+                "title": "Parent Adjustment Id",
+                "type": "string"
+              },
+              "INVOICED_FLAG": {
+                "title": "Invoiced Flag",
+                "type": "string"
+              },
+              "ESTIMATED_FLAG": {
+                "title": "Estimated Flag",
+                "type": "string"
+              },
+              "INC_IN_SALES_PERFORMANCE": {
+                "title": "Inc In Sales Performance",
+                "type": "string"
+              },
+              "SPLIT_ACTION_CODE": {
+                "title": "Split Action Code",
+                "type": "string"
+              },
+              "ADJUSTED_AMOUNT": {
+                "title": "Adjusted Amount",
+                "type": "string"
+              },
+              "ADJUSTED_AMOUNT_PER_PQTY": {
+                "title": "Adjusted Amount Per Pqty",
+                "type": "string"
+              },
+              "PRICING_PHASE_ID": {
+                "title": "Pricing Phase Id",
+                "type": "string"
+              },
+              "CHARGE_TYPE_CODE": {
+                "title": "Charge Type Code",
+                "type": "string"
+              },
+              "CHARGE_SUBTYPE_CODE": {
+                "title": "Charge Subtype Code",
+                "type": "string"
+              },
+              "LIST_LINE_NO": {
+                "title": "List Line No",
+                "type": "string"
+              },
+              "SOURCE_SYSTEM_CODE": {
+                "title": "Source System Code",
+                "type": "string"
+              },
+              "BENEFIT_QTY": {
+                "title": "Benefit Qty",
+                "type": "string"
+              },
+              "BENEFIT_UOM_CODE": {
+                "title": "Benefit Uom Code",
+                "type": "string"
+              },
+              "PRINT_ON_INVOICE_FLAG": {
+                "title": "Print On Invoice Flag",
+                "type": "string"
+              },
+              "EXPIRATION_DATE": {
+                "title": "Expiration Date",
+                "type": "string"
+              },
+              "REBATE_TRANSACTION_TYPE_CODE": {
+                "title": "Rebate Transaction Type Code",
+                "type": "string"
+              },
+              "REBATE_TRANSACTION_REFERENCE": {
+                "title": "Rebate Transaction Reference",
+                "type": "string"
+              },
+              "REBATE_PAYMENT_SYSTEM_CODE": {
+                "title": "Rebate Payment System Code",
+                "type": "string"
+              },
+              "REDEEMED_DATE": {
+                "title": "Redeemed Date",
+                "type": "string"
+              },
+              "REDEEMED_FLAG": {
+                "title": "Redeemed Flag",
+                "type": "string"
+              },
+              "ACCRUAL_FLAG": {
+                "title": "Accrual Flag",
+                "type": "string"
+              },
+              "RANGE_BREAK_QUANTITY": {
+                "title": "Range Break Quantity",
+                "type": "string"
+              },
+              "ACCRUAL_CONVERSION_RATE": {
+                "title": "Accrual Conversion Rate",
+                "type": "string"
+              },
+              "PRICING_GROUP_SEQUENCE": {
+                "title": "Pricing Group Sequence",
+                "type": "string"
+              },
+              "MODIFIER_LEVEL_CODE": {
+                "title": "Modifier Level Code",
+                "type": "string"
+              },
+              "PRICE_BREAK_TYPE_CODE": {
+                "title": "Price Break Type Code",
+                "type": "string"
+              },
+              "SUBSTITUTION_ATTRIBUTE": {
+                "title": "Substitution Attribute",
+                "type": "string"
+              },
+              "PRORATION_TYPE_CODE": {
+                "title": "Proration Type Code",
+                "type": "string"
+              },
+              "CREDIT_OR_CHARGE_FLAG": {
+                "title": "Credit Or Charge Flag",
+                "type": "string"
+              },
+              "INCLUDE_ON_RETURNS_FLAG": {
+                "title": "Include On Returns Flag",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE1": {
+                "title": "Ac Attribute1",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE2": {
+                "title": "Ac Attribute2",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE3": {
+                "title": "Ac Attribute3",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE4": {
+                "title": "Ac Attribute4",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE5": {
+                "title": "Ac Attribute5",
+                "type": "string"
+              },
+              "AC_CONTEXT": {
+                "title": "Ac Context",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "INVOICED_AMOUNT": {
+                "title": "Invoiced Amount",
+                "type": "string"
+              },
+              "TAX_RATE_ID": {
+                "title": "Tax Rate Id",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_ADJ_VAL_TBL": {
+      "title": "X Header Adj Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_ADJ_VAL_TBL_ITEM": {
+          "title": "X Header Adj Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "DISCOUNT": {
+                "title": "Discount",
+                "type": "string"
+              },
+              "LIST_NAME": {
+                "title": "List Name",
+                "type": "string"
+              },
+              "VERSION_NO": {
+                "title": "Version No",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_PRICE_ATT_TBL": {
+      "title": "X Header Price Att Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_PRICE_ATT_TBL_ITEM": {
+          "title": "X Header Price Att Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ORDER_PRICE_ATTRIB_ID": {
+                "title": "Order Price Attrib Id",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "FLEX_TITLE": {
+                "title": "Flex Title",
+                "type": "string"
+              },
+              "PRICING_CONTEXT": {
+                "title": "Pricing Context",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE1": {
+                "title": "Pricing Attribute1",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE2": {
+                "title": "Pricing Attribute2",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE3": {
+                "title": "Pricing Attribute3",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE4": {
+                "title": "Pricing Attribute4",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE5": {
+                "title": "Pricing Attribute5",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE6": {
+                "title": "Pricing Attribute6",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "OVERRIDE_FLAG": {
+                "title": "Override Flag",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "ORIG_SYS_ATTS_REF": {
+                "title": "Orig Sys Atts Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_ADJ_ATT_TBL": {
+      "title": "X Header Adj Att Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_ADJ_ATT_TBL_ITEM": {
+          "title": "X Header Adj Att Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PRICE_ADJ_ATTRIB_ID": {
+                "title": "Price Adj Attrib Id",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "ADJ_INDEX": {
+                "title": "Adj Index",
+                "type": "string"
+              },
+              "FLEX_TITLE": {
+                "title": "Flex Title",
+                "type": "string"
+              },
+              "PRICING_CONTEXT": {
+                "title": "Pricing Context",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE": {
+                "title": "Pricing Attribute",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "PRICING_ATTR_VALUE_FROM": {
+                "title": "Pricing Attr Value From",
+                "type": "string"
+              },
+              "PRICING_ATTR_VALUE_TO": {
+                "title": "Pricing Attr Value To",
+                "type": "string"
+              },
+              "COMPARISON_OPERATOR": {
+                "title": "Comparison Operator",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_ADJ_ASSOC_TBL": {
+      "title": "X Header Adj Assoc Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_ADJ_ASSOC_TBL_ITEM": {
+          "title": "X Header Adj Assoc Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PRICE_ADJ_ASSOC_ID": {
+                "title": "Price Adj Assoc Id",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "ADJ_INDEX": {
+                "title": "Adj Index",
+                "type": "string"
+              },
+              "RLTD_PRICE_ADJ_ID": {
+                "title": "Rltd Price Adj Id",
+                "type": "string"
+              },
+              "RLTD_ADJ_INDEX": {
+                "title": "Rltd Adj Index",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_SCREDIT_TBL": {
+      "title": "X Header Scredit Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_SCREDIT_TBL_ITEM": {
+          "title": "X Header Scredit Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "DW_UPDATE_ADVICE_FLAG": {
+                "title": "Dw Update Advice Flag",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PERCENT": {
+                "title": "Percent",
+                "type": "string"
+              },
+              "SALESREP_ID": {
+                "title": "Salesrep Id",
+                "type": "string"
+              },
+              "SALES_CREDIT_TYPE_ID": {
+                "title": "Sales Credit Type Id",
+                "type": "string"
+              },
+              "SALES_CREDIT_ID": {
+                "title": "Sales Credit Id",
+                "type": "string"
+              },
+              "WH_UPDATE_DATE": {
+                "title": "Wh Update Date",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "ORIG_SYS_CREDIT_REF": {
+                "title": "Orig Sys Credit Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "CHANGE_REASON": {
+                "title": "Change Reason",
+                "type": "string"
+              },
+              "CHANGE_COMMENTS": {
+                "title": "Change Comments",
+                "type": "string"
+              },
+              "SALES_GROUP_ID": {
+                "title": "Sales Group Id",
+                "type": "string"
+              },
+              "SALES_GROUP_UPDATED_FLAG": {
+                "title": "Sales Group Updated Flag",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_SCREDIT_VAL_TBL": {
+      "title": "X Header Scredit Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_SCREDIT_VAL_TBL_ITEM": {
+          "title": "X Header Scredit Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SALESREP": {
+                "title": "Salesrep",
+                "type": "string"
+              },
+              "SALES_CREDIT_TYPE": {
+                "title": "Sales Credit Type",
+                "type": "string"
+              },
+              "SALES_GROUP": {
+                "title": "Sales Group",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_PAYMENT_TBL": {
+      "title": "X Header Payment Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_PAYMENT_TBL_ITEM": {
+          "title": "X Header Payment Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "CHECK_NUMBER": {
+                "title": "Check Number",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_APPROVAL_CODE": {
+                "title": "Credit Card Approval Code",
+                "type": "string"
+              },
+              "CREDIT_CARD_APPROVAL_DATE": {
+                "title": "Credit Card Approval Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_CODE": {
+                "title": "Credit Card Code",
+                "type": "string"
+              },
+              "CREDIT_CARD_EXPIRATION_DATE": {
+                "title": "Credit Card Expiration Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_HOLDER_NAME": {
+                "title": "Credit Card Holder Name",
+                "type": "string"
+              },
+              "CREDIT_CARD_NUMBER": {
+                "title": "Credit Card Number",
+                "type": "string"
+              },
+              "COMMITMENT_APPLIED_AMOUNT": {
+                "title": "Commitment Applied Amount",
+                "type": "string"
+              },
+              "COMMITMENT_INTERFACED_AMOUNT": {
+                "title": "Commitment Interfaced Amount",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PAYMENT_NUMBER": {
+                "title": "Payment Number",
+                "type": "string"
+              },
+              "PAYMENT_AMOUNT": {
+                "title": "Payment Amount",
+                "type": "string"
+              },
+              "PAYMENT_COLLECTION_EVENT": {
+                "title": "Payment Collection Event",
+                "type": "string"
+              },
+              "PAYMENT_LEVEL_CODE": {
+                "title": "Payment Level Code",
+                "type": "string"
+              },
+              "PAYMENT_TRX_ID": {
+                "title": "Payment Trx Id",
+                "type": "string"
+              },
+              "PAYMENT_TYPE_CODE": {
+                "title": "Payment Type Code",
+                "type": "string"
+              },
+              "PAYMENT_SET_ID": {
+                "title": "Payment Set Id",
+                "type": "string"
+              },
+              "PREPAID_AMOUNT": {
+                "title": "Prepaid Amount",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "RECEIPT_METHOD_ID": {
+                "title": "Receipt Method Id",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "TANGIBLE_ID": {
+                "title": "Tangible Id",
+                "type": "string"
+              },
+              "ORIG_SYS_PAYMENT_REF": {
+                "title": "Orig Sys Payment Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "DEFER_PAYMENT_PROCESSING_FLAG": {
+                "title": "Defer Payment Processing Flag",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "INSTRUMENT_SECURITY_CODE": {
+                "title": "Instrument Security Code",
+                "type": "string"
+              },
+              "CC_INSTRUMENT_ID": {
+                "title": "Cc Instrument Id",
+                "type": "string"
+              },
+              "CC_INSTRUMENT_ASSIGNMENT_ID": {
+                "title": "Cc Instrument Assignment Id",
+                "type": "string"
+              },
+              "TRXN_EXTENSION_ID": {
+                "title": "Trxn Extension Id",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_HEADER_PAYMENT_VAL_TBL": {
+      "title": "X Header Payment Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_HEADER_PAYMENT_VAL_TBL_ITEM": {
+          "title": "X Header Payment Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PAYMENT_COLLECTION_EVENT_NAME": {
+                "title": "Payment Collection Event Name",
+                "type": "string"
+              },
+              "RECEIPT_METHOD": {
+                "title": "Receipt Method",
+                "type": "string"
+              },
+              "PAYMENT_TYPE": {
+                "title": "Payment Type",
+                "type": "string"
+              },
+              "COMMITMENT": {
+                "title": "Commitment",
+                "type": "string"
+              },
+              "PAYMENT_PERCENTAGE": {
+                "title": "Payment Percentage",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_TBL": {
+      "title": "X Line Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_TBL_ITEM": {
+          "title": "X Line Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ACCOUNTING_RULE_ID": {
+                "title": "Accounting Rule Id",
+                "type": "string"
+              },
+              "ACTUAL_ARRIVAL_DATE": {
+                "title": "Actual Arrival Date",
+                "type": "string"
+              },
+              "ACTUAL_SHIPMENT_DATE": {
+                "title": "Actual Shipment Date",
+                "type": "string"
+              },
+              "AGREEMENT_ID": {
+                "title": "Agreement Id",
+                "type": "string"
+              },
+              "ARRIVAL_SET_ID": {
+                "title": "Arrival Set Id",
+                "type": "string"
+              },
+              "ATO_LINE_ID": {
+                "title": "Ato Line Id",
+                "type": "string"
+              },
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "AUTHORIZED_TO_SHIP_FLAG": {
+                "title": "Authorized To Ship Flag",
+                "type": "string"
+              },
+              "AUTO_SELECTED_QUANTITY": {
+                "title": "Auto Selected Quantity",
+                "type": "string"
+              },
+              "BOOKED_FLAG": {
+                "title": "Booked Flag",
+                "type": "string"
+              },
+              "CANCELLED_FLAG": {
+                "title": "Cancelled Flag",
+                "type": "string"
+              },
+              "CANCELLED_QUANTITY": {
+                "title": "Cancelled Quantity",
+                "type": "string"
+              },
+              "CANCELLED_QUANTITY2": {
+                "title": "Cancelled Quantity2",
+                "type": "string"
+              },
+              "COMMITMENT_ID": {
+                "title": "Commitment Id",
+                "type": "string"
+              },
+              "COMPONENT_CODE": {
+                "title": "Component Code",
+                "type": "string"
+              },
+              "COMPONENT_NUMBER": {
+                "title": "Component Number",
+                "type": "string"
+              },
+              "COMPONENT_SEQUENCE_ID": {
+                "title": "Component Sequence Id",
+                "type": "string"
+              },
+              "CONFIG_HEADER_ID": {
+                "title": "Config Header Id",
+                "type": "string"
+              },
+              "CONFIG_REV_NBR": {
+                "title": "Config Rev Nbr",
+                "type": "string"
+              },
+              "CONFIG_DISPLAY_SEQUENCE": {
+                "title": "Config Display Sequence",
+                "type": "string"
+              },
+              "CONFIGURATION_ID": {
+                "title": "Configuration Id",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREDIT_INVOICE_LINE_ID": {
+                "title": "Credit Invoice Line Id",
+                "type": "string"
+              },
+              "CUSTOMER_DOCK_CODE": {
+                "title": "Customer Dock Code",
+                "type": "string"
+              },
+              "CUSTOMER_JOB": {
+                "title": "Customer Job",
+                "type": "string"
+              },
+              "CUSTOMER_PRODUCTION_LINE": {
+                "title": "Customer Production Line",
+                "type": "string"
+              },
+              "CUSTOMER_TRX_LINE_ID": {
+                "title": "Customer Trx Line Id",
+                "type": "string"
+              },
+              "CUST_MODEL_SERIAL_NUMBER": {
+                "title": "Cust Model Serial Number",
+                "type": "string"
+              },
+              "CUST_PO_NUMBER": {
+                "title": "Cust Po Number",
+                "type": "string"
+              },
+              "CUST_PRODUCTION_SEQ_NUM": {
+                "title": "Cust Production Seq Num",
+                "type": "string"
+              },
+              "DELIVERY_LEAD_TIME": {
+                "title": "Delivery Lead Time",
+                "type": "string"
+              },
+              "DELIVER_TO_CONTACT_ID": {
+                "title": "Deliver To Contact Id",
+                "type": "string"
+              },
+              "DELIVER_TO_ORG_ID": {
+                "title": "Deliver To Org Id",
+                "type": "string"
+              },
+              "DEMAND_BUCKET_TYPE_CODE": {
+                "title": "Demand Bucket Type Code",
+                "type": "string"
+              },
+              "DEMAND_CLASS_CODE": {
+                "title": "Demand Class Code",
+                "type": "string"
+              },
+              "DEP_PLAN_REQUIRED_FLAG": {
+                "title": "Dep Plan Required Flag",
+                "type": "string"
+              },
+              "EARLIEST_ACCEPTABLE_DATE": {
+                "title": "Earliest Acceptable Date",
+                "type": "string"
+              },
+              "END_ITEM_UNIT_NUMBER": {
+                "title": "End Item Unit Number",
+                "type": "string"
+              },
+              "EXPLOSION_DATE": {
+                "title": "Explosion Date",
+                "type": "string"
+              },
+              "FOB_POINT_CODE": {
+                "title": "Fob Point Code",
+                "type": "string"
+              },
+              "FREIGHT_CARRIER_CODE": {
+                "title": "Freight Carrier Code",
+                "type": "string"
+              },
+              "FREIGHT_TERMS_CODE": {
+                "title": "Freight Terms Code",
+                "type": "string"
+              },
+              "FULFILLED_QUANTITY": {
+                "title": "Fulfilled Quantity",
+                "type": "string"
+              },
+              "FULFILLED_QUANTITY2": {
+                "title": "Fulfilled Quantity2",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE1": {
+                "title": "Global Attribute1",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE2": {
+                "title": "Global Attribute2",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE3": {
+                "title": "Global Attribute3",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE4": {
+                "title": "Global Attribute4",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE5": {
+                "title": "Global Attribute5",
+                "type": "string"
+              },
+              "GLOBAL_ATTRIBUTE_CATEGORY": {
+                "title": "Global Attribute Category",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "INDUSTRY_ATTRIBUTE1": {
+                "title": "Industry Attribute1",
+                "type": "string"
+              },
+              "INDUSTRY_ATTRIBUTE2": {
+                "title": "Industry Attribute2",
+                "type": "string"
+              },
+              "INDUSTRY_ATTRIBUTE3": {
+                "title": "Industry Attribute3",
+                "type": "string"
+              },
+              "INDUSTRY_ATTRIBUTE4": {
+                "title": "Industry Attribute4",
+                "type": "string"
+              },
+              "INDUSTRY_ATTRIBUTE5": {
+                "title": "Industry Attribute5",
+                "type": "string"
+              },
+              "INDUSTRY_CONTEXT": {
+                "title": "Industry Context",
+                "type": "string"
+              },
+              "TP_CONTEXT": {
+                "title": "Tp Context",
+                "type": "string"
+              },
+              "TP_ATTRIBUTE1": {
+                "title": "Tp Attribute1",
+                "type": "string"
+              },
+              "TP_ATTRIBUTE2": {
+                "title": "Tp Attribute2",
+                "type": "string"
+              },
+              "TP_ATTRIBUTE3": {
+                "title": "Tp Attribute3",
+                "type": "string"
+              },
+              "TP_ATTRIBUTE4": {
+                "title": "Tp Attribute4",
+                "type": "string"
+              },
+              "TP_ATTRIBUTE5": {
+                "title": "Tp Attribute5",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ORG_ID": {
+                "title": "Intermed Ship To Org Id",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_CONTACT_ID": {
+                "title": "Intermed Ship To Contact Id",
+                "type": "string"
+              },
+              "INVENTORY_ITEM_ID": {
+                "title": "Inventory Item Id",
+                "type": "string"
+              },
+              "INVOICE_INTERFACE_STATUS_CODE": {
+                "title": "Invoice Interface Status Code",
+                "type": "string"
+              },
+              "INVOICE_TO_CONTACT_ID": {
+                "title": "Invoice To Contact Id",
+                "type": "string"
+              },
+              "INVOICE_TO_ORG_ID": {
+                "title": "Invoice To Org Id",
+                "type": "string"
+              },
+              "INVOICING_RULE_ID": {
+                "title": "Invoicing Rule Id",
+                "type": "string"
+              },
+              "ORDERED_ITEM": {
+                "title": "Ordered Item",
+                "type": "string"
+              },
+              "ITEM_REVISION": {
+                "title": "Item Revision",
+                "type": "string"
+              },
+              "ITEM_TYPE_CODE": {
+                "title": "Item Type Code",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LATEST_ACCEPTABLE_DATE": {
+                "title": "Latest Acceptable Date",
+                "type": "string"
+              },
+              "LINE_CATEGORY_CODE": {
+                "title": "Line Category Code",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "LINE_NUMBER": {
+                "title": "Line Number",
+                "type": "string"
+              },
+              "LINE_TYPE_ID": {
+                "title": "Line Type Id",
+                "type": "string"
+              },
+              "LINK_TO_LINE_REF": {
+                "title": "Link To Line Ref",
+                "type": "string"
+              },
+              "LINK_TO_LINE_ID": {
+                "title": "Link To Line Id",
+                "type": "string"
+              },
+              "LINK_TO_LINE_INDEX": {
+                "title": "Link To Line Index",
+                "type": "string"
+              },
+              "MODEL_GROUP_NUMBER": {
+                "title": "Model Group Number",
+                "type": "string"
+              },
+              "MFG_COMPONENT_SEQUENCE_ID": {
+                "title": "Mfg Component Sequence Id",
+                "type": "string"
+              },
+              "MFG_LEAD_TIME": {
+                "title": "Mfg Lead Time",
+                "type": "string"
+              },
+              "OPEN_FLAG": {
+                "title": "Open Flag",
+                "type": "string"
+              },
+              "OPTION_FLAG": {
+                "title": "Option Flag",
+                "type": "string"
+              },
+              "OPTION_NUMBER": {
+                "title": "Option Number",
+                "type": "string"
+              },
+              "ORDERED_QUANTITY": {
+                "title": "Ordered Quantity",
+                "type": "string"
+              },
+              "ORDERED_QUANTITY2": {
+                "title": "Ordered Quantity2",
+                "type": "string"
+              },
+              "ORDER_QUANTITY_UOM": {
+                "title": "Order Quantity Uom",
+                "type": "string"
+              },
+              "ORDERED_QUANTITY_UOM2": {
+                "title": "Ordered Quantity Uom2",
+                "type": "string"
+              },
+              "ORG_ID": {
+                "title": "Org Id",
+                "type": "string"
+              },
+              "ORIG_SYS_DOCUMENT_REF": {
+                "title": "Orig Sys Document Ref",
+                "type": "string"
+              },
+              "ORIG_SYS_LINE_REF": {
+                "title": "Orig Sys Line Ref",
+                "type": "string"
+              },
+              "OVER_SHIP_REASON_CODE": {
+                "title": "Over Ship Reason Code",
+                "type": "string"
+              },
+              "OVER_SHIP_RESOLVED_FLAG": {
+                "title": "Over Ship Resolved Flag",
+                "type": "string"
+              },
+              "PAYMENT_TERM_ID": {
+                "title": "Payment Term Id",
+                "type": "string"
+              },
+              "PLANNING_PRIORITY": {
+                "title": "Planning Priority",
+                "type": "string"
+              },
+              "PREFERRED_GRADE": {
+                "title": "Preferred Grade",
+                "type": "string"
+              },
+              "PRICE_LIST_ID": {
+                "title": "Price List Id",
+                "type": "string"
+              },
+              "PRICE_REQUEST_CODE": {
+                "title": "Price Request Code",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE1": {
+                "title": "Pricing Attribute1",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE2": {
+                "title": "Pricing Attribute2",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE3": {
+                "title": "Pricing Attribute3",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE4": {
+                "title": "Pricing Attribute4",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE5": {
+                "title": "Pricing Attribute5",
+                "type": "string"
+              },
+              "PRICING_CONTEXT": {
+                "title": "Pricing Context",
+                "type": "string"
+              },
+              "PRICING_DATE": {
+                "title": "Pricing Date",
+                "type": "string"
+              },
+              "PRICING_QUANTITY": {
+                "title": "Pricing Quantity",
+                "type": "string"
+              },
+              "PRICING_QUANTITY_UOM": {
+                "title": "Pricing Quantity Uom",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "PROJECT_ID": {
+                "title": "Project Id",
+                "type": "string"
+              },
+              "PROMISE_DATE": {
+                "title": "Promise Date",
+                "type": "string"
+              },
+              "RE_SOURCE_FLAG": {
+                "title": "Re Source Flag",
+                "type": "string"
+              },
+              "REFERENCE_CUSTOMER_TRX_LINE_ID": {
+                "title": "Reference Customer Trx Line Id",
+                "type": "string"
+              },
+              "REFERENCE_HEADER_ID": {
+                "title": "Reference Header Id",
+                "type": "string"
+              },
+              "REFERENCE_LINE_ID": {
+                "title": "Reference Line Id",
+                "type": "string"
+              },
+              "REFERENCE_TYPE": {
+                "title": "Reference Type",
+                "type": "string"
+              },
+              "REQUEST_DATE": {
+                "title": "Request Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "RESERVED_QUANTITY": {
+                "title": "Reserved Quantity",
+                "type": "string"
+              },
+              "RETURN_ATTRIBUTE1": {
+                "title": "Return Attribute1",
+                "type": "string"
+              },
+              "RETURN_ATTRIBUTE2": {
+                "title": "Return Attribute2",
+                "type": "string"
+              },
+              "RETURN_ATTRIBUTE3": {
+                "title": "Return Attribute3",
+                "type": "string"
+              },
+              "RETURN_ATTRIBUTE4": {
+                "title": "Return Attribute4",
+                "type": "string"
+              },
+              "RETURN_ATTRIBUTE5": {
+                "title": "Return Attribute5",
+                "type": "string"
+              },
+              "RETURN_CONTEXT": {
+                "title": "Return Context",
+                "type": "string"
+              },
+              "RETURN_REASON_CODE": {
+                "title": "Return Reason Code",
+                "type": "string"
+              },
+              "RLA_SCHEDULE_TYPE_CODE": {
+                "title": "Rla Schedule Type Code",
+                "type": "string"
+              },
+              "SALESREP_ID": {
+                "title": "Salesrep Id",
+                "type": "string"
+              },
+              "SCHEDULE_ARRIVAL_DATE": {
+                "title": "Schedule Arrival Date",
+                "type": "string"
+              },
+              "SCHEDULE_SHIP_DATE": {
+                "title": "Schedule Ship Date",
+                "type": "string"
+              },
+              "SCHEDULE_ACTION_CODE": {
+                "title": "Schedule Action Code",
+                "type": "string"
+              },
+              "SCHEDULE_STATUS_CODE": {
+                "title": "Schedule Status Code",
+                "type": "string"
+              },
+              "SHIPMENT_NUMBER": {
+                "title": "Shipment Number",
+                "type": "string"
+              },
+              "SHIPMENT_PRIORITY_CODE": {
+                "title": "Shipment Priority Code",
+                "type": "string"
+              },
+              "SHIPPED_QUANTITY": {
+                "title": "Shipped Quantity",
+                "type": "string"
+              },
+              "SHIPPED_QUANTITY2": {
+                "title": "Shipped Quantity2",
+                "type": "string"
+              },
+              "SHIPPING_INTERFACED_FLAG": {
+                "title": "Shipping Interfaced Flag",
+                "type": "string"
+              },
+              "SHIPPING_METHOD_CODE": {
+                "title": "Shipping Method Code",
+                "type": "string"
+              },
+              "SHIPPING_QUANTITY": {
+                "title": "Shipping Quantity",
+                "type": "string"
+              },
+              "SHIPPING_QUANTITY2": {
+                "title": "Shipping Quantity2",
+                "type": "string"
+              },
+              "SHIPPING_QUANTITY_UOM": {
+                "title": "Shipping Quantity Uom",
+                "type": "string"
+              },
+              "SHIPPING_QUANTITY_UOM2": {
+                "title": "Shipping Quantity Uom2",
+                "type": "string"
+              },
+              "SHIP_FROM_ORG_ID": {
+                "title": "Ship From Org Id",
+                "type": "string"
+              },
+              "SHIP_MODEL_COMPLETE_FLAG": {
+                "title": "Ship Model Complete Flag",
+                "type": "string"
+              },
+              "SHIP_SET_ID": {
+                "title": "Ship Set Id",
+                "type": "string"
+              },
+              "FULFILLMENT_SET_ID": {
+                "title": "Fulfillment Set Id",
+                "type": "string"
+              },
+              "SHIP_TOLERANCE_ABOVE": {
+                "title": "Ship Tolerance Above",
+                "type": "string"
+              },
+              "SHIP_TOLERANCE_BELOW": {
+                "title": "Ship Tolerance Below",
+                "type": "string"
+              },
+              "SHIP_TO_CONTACT_ID": {
+                "title": "Ship To Contact Id",
+                "type": "string"
+              },
+              "SHIP_TO_ORG_ID": {
+                "title": "Ship To Org Id",
+                "type": "string"
+              },
+              "SOLD_TO_ORG_ID": {
+                "title": "Sold To Org Id",
+                "type": "string"
+              },
+              "SOLD_FROM_ORG_ID": {
+                "title": "Sold From Org Id",
+                "type": "string"
+              },
+              "SORT_ORDER": {
+                "title": "Sort Order",
+                "type": "string"
+              },
+              "SOURCE_DOCUMENT_ID": {
+                "title": "Source Document Id",
+                "type": "string"
+              },
+              "SOURCE_DOCUMENT_LINE_ID": {
+                "title": "Source Document Line Id",
+                "type": "string"
+              },
+              "SOURCE_DOCUMENT_TYPE_ID": {
+                "title": "Source Document Type Id",
+                "type": "string"
+              },
+              "SOURCE_TYPE_CODE": {
+                "title": "Source Type Code",
+                "type": "string"
+              },
+              "SPLIT_FROM_LINE_ID": {
+                "title": "Split From Line Id",
+                "type": "string"
+              },
+              "TASK_ID": {
+                "title": "Task Id",
+                "type": "string"
+              },
+              "TAX_CODE": {
+                "title": "Tax Code",
+                "type": "string"
+              },
+              "TAX_DATE": {
+                "title": "Tax Date",
+                "type": "string"
+              },
+              "TAX_EXEMPT_FLAG": {
+                "title": "Tax Exempt Flag",
+                "type": "string"
+              },
+              "TAX_EXEMPT_NUMBER": {
+                "title": "Tax Exempt Number",
+                "type": "string"
+              },
+              "TAX_EXEMPT_REASON_CODE": {
+                "title": "Tax Exempt Reason Code",
+                "type": "string"
+              },
+              "TAX_POINT_CODE": {
+                "title": "Tax Point Code",
+                "type": "string"
+              },
+              "TAX_RATE": {
+                "title": "Tax Rate",
+                "type": "string"
+              },
+              "TAX_VALUE": {
+                "title": "Tax Value",
+                "type": "string"
+              },
+              "TOP_MODEL_LINE_REF": {
+                "title": "Top Model Line Ref",
+                "type": "string"
+              },
+              "TOP_MODEL_LINE_ID": {
+                "title": "Top Model Line Id",
+                "type": "string"
+              },
+              "TOP_MODEL_LINE_INDEX": {
+                "title": "Top Model Line Index",
+                "type": "string"
+              },
+              "UNIT_LIST_PRICE": {
+                "title": "Unit List Price",
+                "type": "string"
+              },
+              "UNIT_LIST_PRICE_PER_PQTY": {
+                "title": "Unit List Price Per Pqty",
+                "type": "string"
+              },
+              "UNIT_SELLING_PRICE": {
+                "title": "Unit Selling Price",
+                "type": "string"
+              },
+              "UNIT_SELLING_PRICE_PER_PQTY": {
+                "title": "Unit Selling Price Per Pqty",
+                "type": "string"
+              },
+              "VEH_CUS_ITEM_CUM_KEY_ID": {
+                "title": "Veh Cus Item Cum Key Id",
+                "type": "string"
+              },
+              "VISIBLE_DEMAND_FLAG": {
+                "title": "Visible Demand Flag",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "FIRST_ACK_CODE": {
+                "title": "First Ack Code",
+                "type": "string"
+              },
+              "FIRST_ACK_DATE": {
+                "title": "First Ack Date",
+                "type": "string"
+              },
+              "LAST_ACK_CODE": {
+                "title": "Last Ack Code",
+                "type": "string"
+              },
+              "LAST_ACK_DATE": {
+                "title": "Last Ack Date",
+                "type": "string"
+              },
+              "CHANGE_REASON": {
+                "title": "Change Reason",
+                "type": "string"
+              },
+              "CHANGE_COMMENTS": {
+                "title": "Change Comments",
+                "type": "string"
+              },
+              "ARRIVAL_SET": {
+                "title": "Arrival Set",
+                "type": "string"
+              },
+              "SHIP_SET": {
+                "title": "Ship Set",
+                "type": "string"
+              },
+              "FULFILLMENT_SET": {
+                "title": "Fulfillment Set",
+                "type": "string"
+              },
+              "ORDER_SOURCE_ID": {
+                "title": "Order Source Id",
+                "type": "string"
+              },
+              "ORIG_SYS_SHIPMENT_REF": {
+                "title": "Orig Sys Shipment Ref",
+                "type": "string"
+              },
+              "CHANGE_SEQUENCE": {
+                "title": "Change Sequence",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "DROP_SHIP_FLAG": {
+                "title": "Drop Ship Flag",
+                "type": "string"
+              },
+              "CUSTOMER_LINE_NUMBER": {
+                "title": "Customer Line Number",
+                "type": "string"
+              },
+              "CUSTOMER_SHIPMENT_NUMBER": {
+                "title": "Customer Shipment Number",
+                "type": "string"
+              },
+              "CUSTOMER_ITEM_NET_PRICE": {
+                "title": "Customer Item Net Price",
+                "type": "string"
+              },
+              "CUSTOMER_PAYMENT_TERM_ID": {
+                "title": "Customer Payment Term Id",
+                "type": "string"
+              },
+              "ORDERED_ITEM_ID": {
+                "title": "Ordered Item Id",
+                "type": "string"
+              },
+              "ITEM_IDENTIFIER_TYPE": {
+                "title": "Item Identifier Type",
+                "type": "string"
+              },
+              "SHIPPING_INSTRUCTIONS": {
+                "title": "Shipping Instructions",
+                "type": "string"
+              },
+              "PACKING_INSTRUCTIONS": {
+                "title": "Packing Instructions",
+                "type": "string"
+              },
+              "CALCULATE_PRICE_FLAG": {
+                "title": "Calculate Price Flag",
+                "type": "string"
+              },
+              "INVOICED_QUANTITY": {
+                "title": "Invoiced Quantity",
+                "type": "string"
+              },
+              "SERVICE_TXN_REASON_CODE": {
+                "title": "Service Txn Reason Code",
+                "type": "string"
+              },
+              "SERVICE_TXN_COMMENTS": {
+                "title": "Service Txn Comments",
+                "type": "string"
+              },
+              "SERVICE_DURATION": {
+                "title": "Service Duration",
+                "type": "string"
+              },
+              "SERVICE_PERIOD": {
+                "title": "Service Period",
+                "type": "string"
+              },
+              "SERVICE_START_DATE": {
+                "title": "Service Start Date",
+                "type": "string"
+              },
+              "SERVICE_END_DATE": {
+                "title": "Service End Date",
+                "type": "string"
+              },
+              "SERVICE_COTERMINATE_FLAG": {
+                "title": "Service Coterminate Flag",
+                "type": "string"
+              },
+              "UNIT_LIST_PERCENT": {
+                "title": "Unit List Percent",
+                "type": "string"
+              },
+              "UNIT_SELLING_PERCENT": {
+                "title": "Unit Selling Percent",
+                "type": "string"
+              },
+              "UNIT_PERCENT_BASE_PRICE": {
+                "title": "Unit Percent Base Price",
+                "type": "string"
+              },
+              "SERVICE_NUMBER": {
+                "title": "Service Number",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_TYPE_CODE": {
+                "title": "Service Reference Type Code",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_LINE_ID": {
+                "title": "Service Reference Line Id",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_SYSTEM_ID": {
+                "title": "Service Reference System Id",
+                "type": "string"
+              },
+              "SERVICE_REF_ORDER_NUMBER": {
+                "title": "Service Ref Order Number",
+                "type": "string"
+              },
+              "SERVICE_REF_LINE_NUMBER": {
+                "title": "Service Ref Line Number",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_ORDER": {
+                "title": "Service Reference Order",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_LINE": {
+                "title": "Service Reference Line",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_SYSTEM": {
+                "title": "Service Reference System",
+                "type": "string"
+              },
+              "SERVICE_REF_SHIPMENT_NUMBER": {
+                "title": "Service Ref Shipment Number",
+                "type": "string"
+              },
+              "SERVICE_REF_OPTION_NUMBER": {
+                "title": "Service Ref Option Number",
+                "type": "string"
+              },
+              "SERVICE_LINE_INDEX": {
+                "title": "Service Line Index",
+                "type": "string"
+              },
+              "LINE_SET_ID": {
+                "title": "Line Set Id",
+                "type": "string"
+              },
+              "SPLIT_BY": {
+                "title": "Split By",
+                "type": "string"
+              },
+              "SPLIT_ACTION_CODE": {
+                "title": "Split Action Code",
+                "type": "string"
+              },
+              "SHIPPABLE_FLAG": {
+                "title": "Shippable Flag",
+                "type": "string"
+              },
+              "MODEL_REMNANT_FLAG": {
+                "title": "Model Remnant Flag",
+                "type": "string"
+              },
+              "FLOW_STATUS_CODE": {
+                "title": "Flow Status Code",
+                "type": "string"
+              },
+              "FULFILLED_FLAG": {
+                "title": "Fulfilled Flag",
+                "type": "string"
+              },
+              "FULFILLMENT_METHOD_CODE": {
+                "title": "Fulfillment Method Code",
+                "type": "string"
+              },
+              "REVENUE_AMOUNT": {
+                "title": "Revenue Amount",
+                "type": "string"
+              },
+              "MARKETING_SOURCE_CODE_ID": {
+                "title": "Marketing Source Code Id",
+                "type": "string"
+              },
+              "FULFILLMENT_DATE": {
+                "title": "Fulfillment Date",
+                "type": "string"
+              },
+              "SEMI_PROCESSED_FLAG": {
+                "title": "Semi Processed Flag",
+                "type": "string"
+              },
+              "UPGRADED_FLAG": {
+                "title": "Upgraded Flag",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "SUBINVENTORY": {
+                "title": "Subinventory",
+                "type": "string"
+              },
+              "SPLIT_FROM_LINE_REF": {
+                "title": "Split From Line Ref",
+                "type": "string"
+              },
+              "SPLIT_FROM_SHIPMENT_REF": {
+                "title": "Split From Shipment Ref",
+                "type": "string"
+              },
+              "SHIP_TO_EDI_LOCATION_CODE": {
+                "title": "Ship To Edi Location Code",
+                "type": "string"
+              },
+              "BILL_TO_EDI_LOCATION_CODE": {
+                "title": "Bill To Edi Location Code",
+                "type": "string"
+              },
+              "SHIP_FROM_EDI_LOCATION_CODE": {
+                "title": "Ship From Edi Location Code",
+                "type": "string"
+              },
+              "SHIP_FROM_ADDRESS_ID": {
+                "title": "Ship From Address Id",
+                "type": "string"
+              },
+              "SOLD_TO_ADDRESS_ID": {
+                "title": "Sold To Address Id",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS_ID": {
+                "title": "Ship To Address Id",
+                "type": "string"
+              },
+              "INVOICE_ADDRESS_ID": {
+                "title": "Invoice Address Id",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS_CODE": {
+                "title": "Ship To Address Code",
+                "type": "string"
+              },
+              "ORIGINAL_INVENTORY_ITEM_ID": {
+                "title": "Original Inventory Item Id",
+                "type": "string"
+              },
+              "ORIGINAL_ITEM_IDENTIFIER_TYPE": {
+                "title": "Original Item Identifier Type",
+                "type": "string"
+              },
+              "ORIGINAL_ORDERED_ITEM_ID": {
+                "title": "Original Ordered Item Id",
+                "type": "string"
+              },
+              "ORIGINAL_ORDERED_ITEM": {
+                "title": "Original Ordered Item",
+                "type": "string"
+              },
+              "ITEM_SUBSTITUTION_TYPE_CODE": {
+                "title": "Item Substitution Type Code",
+                "type": "string"
+              },
+              "LATE_DEMAND_PENALTY_FACTOR": {
+                "title": "Late Demand Penalty Factor",
+                "type": "string"
+              },
+              "OVERRIDE_ATP_DATE_CODE": {
+                "title": "Override Atp Date Code",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_ID": {
+                "title": "Ship To Customer Id",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_ID": {
+                "title": "Invoice To Customer Id",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_ID": {
+                "title": "Deliver To Customer Id",
+                "type": "string"
+              },
+              "ACCOUNTING_RULE_DURATION": {
+                "title": "Accounting Rule Duration",
+                "type": "string"
+              },
+              "UNIT_COST": {
+                "title": "Unit Cost",
+                "type": "string"
+              },
+              "USER_ITEM_DESCRIPTION": {
+                "title": "User Item Description",
+                "type": "string"
+              },
+              "XML_TRANSACTION_TYPE_CODE": {
+                "title": "Xml Transaction Type Code",
+                "type": "string"
+              },
+              "ITEM_RELATIONSHIP_TYPE": {
+                "title": "Item Relationship Type",
+                "type": "string"
+              },
+              "BLANKET_NUMBER": {
+                "title": "Blanket Number",
+                "type": "string"
+              },
+              "BLANKET_LINE_NUMBER": {
+                "title": "Blanket Line Number",
+                "type": "string"
+              },
+              "BLANKET_VERSION_NUMBER": {
+                "title": "Blanket Version Number",
+                "type": "string"
+              },
+              "CSO_RESPONSE_FLAG": {
+                "title": "Cso Response Flag",
+                "type": "string"
+              },
+              "FIRM_DEMAND_FLAG": {
+                "title": "Firm Demand Flag",
+                "type": "string"
+              },
+              "EARLIEST_SHIP_DATE": {
+                "title": "Earliest Ship Date",
+                "type": "string"
+              },
+              "TRANSACTION_PHASE_CODE": {
+                "title": "Transaction Phase Code",
+                "type": "string"
+              },
+              "SOURCE_DOCUMENT_VERSION_NUMBER": {
+                "title": "Source Document Version Number",
+                "type": "string"
+              },
+              "MINISITE_ID": {
+                "title": "Minisite Id",
+                "type": "string"
+              },
+              "IB_OWNER": {
+                "title": "Ib Owner",
+                "type": "string"
+              },
+              "IB_INSTALLED_AT_LOCATION": {
+                "title": "Ib Installed At Location",
+                "type": "string"
+              },
+              "IB_CURRENT_LOCATION": {
+                "title": "Ib Current Location",
+                "type": "string"
+              },
+              "END_CUSTOMER_ID": {
+                "title": "End Customer Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_CONTACT_ID": {
+                "title": "End Customer Contact Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_USE_ID": {
+                "title": "End Customer Site Use Id",
+                "type": "string"
+              },
+              "SUPPLIER_SIGNATURE": {
+                "title": "Supplier Signature",
+                "type": "string"
+              },
+              "SUPPLIER_SIGNATURE_DATE": {
+                "title": "Supplier Signature Date",
+                "type": "string"
+              },
+              "CUSTOMER_SIGNATURE": {
+                "title": "Customer Signature",
+                "type": "string"
+              },
+              "CUSTOMER_SIGNATURE_DATE": {
+                "title": "Customer Signature Date",
+                "type": "string"
+              },
+              "SHIP_TO_PARTY_ID": {
+                "title": "Ship To Party Id",
+                "type": "string"
+              },
+              "SHIP_TO_PARTY_SITE_ID": {
+                "title": "Ship To Party Site Id",
+                "type": "string"
+              },
+              "SHIP_TO_PARTY_SITE_USE_ID": {
+                "title": "Ship To Party Site Use Id",
+                "type": "string"
+              },
+              "DELIVER_TO_PARTY_ID": {
+                "title": "Deliver To Party Id",
+                "type": "string"
+              },
+              "DELIVER_TO_PARTY_SITE_ID": {
+                "title": "Deliver To Party Site Id",
+                "type": "string"
+              },
+              "DELIVER_TO_PARTY_SITE_USE_ID": {
+                "title": "Deliver To Party Site Use Id",
+                "type": "string"
+              },
+              "INVOICE_TO_PARTY_ID": {
+                "title": "Invoice To Party Id",
+                "type": "string"
+              },
+              "INVOICE_TO_PARTY_SITE_ID": {
+                "title": "Invoice To Party Site Id",
+                "type": "string"
+              },
+              "INVOICE_TO_PARTY_SITE_USE_ID": {
+                "title": "Invoice To Party Site Use Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_PARTY_ID": {
+                "title": "End Customer Party Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_PARTY_SITE_ID": {
+                "title": "End Customer Party Site Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_PARTY_SITE_USE_ID": {
+                "title": "End Customer Party Site Use Id",
+                "type": "string"
+              },
+              "END_CUSTOMER_PARTY_NUMBER": {
+                "title": "End Customer Party Number",
+                "type": "string"
+              },
+              "END_CUSTOMER_ORG_CONTACT_ID": {
+                "title": "End Customer Org Contact Id",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_PARTY_ID": {
+                "title": "Ship To Customer Party Id",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_PARTY_ID": {
+                "title": "Deliver To Customer Party Id",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_PARTY_ID": {
+                "title": "Invoice To Customer Party Id",
+                "type": "string"
+              },
+              "SHIP_TO_ORG_CONTACT_ID": {
+                "title": "Ship To Org Contact Id",
+                "type": "string"
+              },
+              "DELIVER_TO_ORG_CONTACT_ID": {
+                "title": "Deliver To Org Contact Id",
+                "type": "string"
+              },
+              "INVOICE_TO_ORG_CONTACT_ID": {
+                "title": "Invoice To Org Contact Id",
+                "type": "string"
+              },
+              "RETROBILL_REQUEST_ID": {
+                "title": "Retrobill Request Id",
+                "type": "string"
+              },
+              "ORIGINAL_LIST_PRICE": {
+                "title": "Original List Price",
+                "type": "string"
+              },
+              "COMMITMENT_APPLIED_AMOUNT": {
+                "title": "Commitment Applied Amount",
+                "type": "string"
+              },
+              "SHIP_TO_PARTY_NUMBER": {
+                "title": "Ship To Party Number",
+                "type": "string"
+              },
+              "INVOICE_TO_PARTY_NUMBER": {
+                "title": "Invoice To Party Number",
+                "type": "string"
+              },
+              "DELIVER_TO_PARTY_NUMBER": {
+                "title": "Deliver To Party Number",
+                "type": "string"
+              },
+              "ORDER_FIRMED_DATE": {
+                "title": "Order Firmed Date",
+                "type": "string"
+              },
+              "ACTUAL_FULFILLMENT_DATE": {
+                "title": "Actual Fulfillment Date",
+                "type": "string"
+              },
+              "CHANGED_LINES_POCAO": {
+                "title": "Changed Lines Pocao",
+                "type": "string"
+              },
+              "CHARGE_PERIODICITY_CODE": {
+                "title": "Charge Periodicity Code",
+                "type": "string"
+              },
+              "PARTY_TYPE": {
+                "title": "Party Type",
+                "type": "string"
+              },
+              "RESERVED_QUANTITY2": {
+                "title": "Reserved Quantity2",
+                "type": "string"
+              },
+              "CONTINGENCY_ID": {
+                "title": "Contingency Id",
+                "type": "string"
+              },
+              "REVREC_EVENT_CODE": {
+                "title": "Revrec Event Code",
+                "type": "string"
+              },
+              "REVREC_EXPIRATION_DAYS": {
+                "title": "Revrec Expiration Days",
+                "type": "string"
+              },
+              "ACCEPTED_QUANTITY": {
+                "title": "Accepted Quantity",
+                "type": "string"
+              },
+              "ACCEPTED_BY": {
+                "title": "Accepted By",
+                "type": "string"
+              },
+              "REVREC_COMMENTS": {
+                "title": "Revrec Comments",
+                "type": "string"
+              },
+              "REVREC_REFERENCE_DOCUMENT": {
+                "title": "Revrec Reference Document",
+                "type": "string"
+              },
+              "REVREC_SIGNATURE": {
+                "title": "Revrec Signature",
+                "type": "string"
+              },
+              "REVREC_SIGNATURE_DATE": {
+                "title": "Revrec Signature Date",
+                "type": "string"
+              },
+              "REVREC_IMPLICIT_FLAG": {
+                "title": "Revrec Implicit Flag",
+                "type": "string"
+              },
+              "SOLD_TO_CUSTOMER_REF": {
+                "title": "Sold To Customer Ref",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_REF": {
+                "title": "Ship To Customer Ref",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_REF": {
+                "title": "Invoice To Customer Ref",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_REF": {
+                "title": "Deliver To Customer Ref",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS_REF": {
+                "title": "Ship To Address Ref",
+                "type": "string"
+              },
+              "INVOICE_TO_ADDRESS_REF": {
+                "title": "Invoice To Address Ref",
+                "type": "string"
+              },
+              "DELIVER_TO_ADDRESS_REF": {
+                "title": "Deliver To Address Ref",
+                "type": "string"
+              },
+              "SHIP_TO_CONTACT_REF": {
+                "title": "Ship To Contact Ref",
+                "type": "string"
+              },
+              "INVOICE_TO_CONTACT_REF": {
+                "title": "Invoice To Contact Ref",
+                "type": "string"
+              },
+              "DELIVER_TO_CONTACT_REF": {
+                "title": "Deliver To Contact Ref",
+                "type": "string"
+              },
+              "SPLIT_REQUEST_DATE": {
+                "title": "Split Request Date",
+                "type": "string"
+              },
+              "SPLIT_SHIP_FROM": {
+                "title": "Split Ship From",
+                "type": "string"
+              },
+              "SPLIT_SHIP_TO": {
+                "title": "Split Ship To",
+                "type": "string"
+              },
+              "BYPASS_SCH_FLAG": {
+                "title": "Bypass Sch Flag",
+                "type": "string"
+              },
+              "PRE_EXPLODED_FLAG": {
+                "title": "Pre Exploded Flag",
+                "type": "string"
+              },
+              "SERVICE_BILL_OPTION_CODE": {
+                "title": "Service Bill Option Code",
+                "type": "string"
+              },
+              "SERVICE_BILL_PROFILE_ID": {
+                "title": "Service Bill Profile Id",
+                "type": "string"
+              },
+              "SERVICE_COV_TEMPLATE_ID": {
+                "title": "Service Cov Template Id",
+                "type": "string"
+              },
+              "SERVICE_SUBS_TEMPLATE_ID": {
+                "title": "Service Subs Template Id",
+                "type": "string"
+              },
+              "SUBSCRIPTION_ENABLE_FLAG": {
+                "title": "Subscription Enable Flag",
+                "type": "string"
+              },
+              "SERVICE_FIRST_PERIOD_AMOUNT": {
+                "title": "Service First Period Amount",
+                "type": "string"
+              },
+              "SERVICE_FIRST_PERIOD_ENDDATE": {
+                "title": "Service First Period Enddate",
+                "type": "string"
+              },
+              "FULFILLMENT_BASE": {
+                "title": "Fulfillment Base",
+                "type": "string"
+              },
+              "CONTAINER_NUMBER": {
+                "title": "Container Number",
+                "type": "string"
+              },
+              "EQUIPMENT_ID": {
+                "title": "Equipment Id",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_VAL_TBL": {
+      "title": "X Line Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_VAL_TBL_ITEM": {
+          "title": "X Line Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ACCOUNTING_RULE": {
+                "title": "Accounting Rule",
+                "type": "string"
+              },
+              "AGREEMENT": {
+                "title": "Agreement",
+                "type": "string"
+              },
+              "COMMITMENT": {
+                "title": "Commitment",
+                "type": "string"
+              },
+              "COMMITMENT_APPLIED_AMOUNT": {
+                "title": "Commitment Applied Amount",
+                "type": "string"
+              },
+              "DELIVER_TO_ADDRESS1": {
+                "title": "Deliver To Address1",
+                "type": "string"
+              },
+              "DELIVER_TO_ADDRESS2": {
+                "title": "Deliver To Address2",
+                "type": "string"
+              },
+              "DELIVER_TO_ADDRESS3": {
+                "title": "Deliver To Address3",
+                "type": "string"
+              },
+              "DELIVER_TO_ADDRESS4": {
+                "title": "Deliver To Address4",
+                "type": "string"
+              },
+              "DELIVER_TO_CONTACT": {
+                "title": "Deliver To Contact",
+                "type": "string"
+              },
+              "DELIVER_TO_LOCATION": {
+                "title": "Deliver To Location",
+                "type": "string"
+              },
+              "DELIVER_TO_ORG": {
+                "title": "Deliver To Org",
+                "type": "string"
+              },
+              "DELIVER_TO_STATE": {
+                "title": "Deliver To State",
+                "type": "string"
+              },
+              "DELIVER_TO_CITY": {
+                "title": "Deliver To City",
+                "type": "string"
+              },
+              "DELIVER_TO_ZIP": {
+                "title": "Deliver To Zip",
+                "type": "string"
+              },
+              "DELIVER_TO_COUNTRY": {
+                "title": "Deliver To Country",
+                "type": "string"
+              },
+              "DELIVER_TO_COUNTY": {
+                "title": "Deliver To County",
+                "type": "string"
+              },
+              "DELIVER_TO_PROVINCE": {
+                "title": "Deliver To Province",
+                "type": "string"
+              },
+              "DEMAND_CLASS": {
+                "title": "Demand Class",
+                "type": "string"
+              },
+              "DEMAND_BUCKET_TYPE": {
+                "title": "Demand Bucket Type",
+                "type": "string"
+              },
+              "FOB_POINT": {
+                "title": "Fob Point",
+                "type": "string"
+              },
+              "FREIGHT_TERMS": {
+                "title": "Freight Terms",
+                "type": "string"
+              },
+              "INVENTORY_ITEM": {
+                "title": "Inventory Item",
+                "type": "string"
+              },
+              "INVOICE_TO_ADDRESS1": {
+                "title": "Invoice To Address1",
+                "type": "string"
+              },
+              "INVOICE_TO_ADDRESS2": {
+                "title": "Invoice To Address2",
+                "type": "string"
+              },
+              "INVOICE_TO_ADDRESS3": {
+                "title": "Invoice To Address3",
+                "type": "string"
+              },
+              "INVOICE_TO_ADDRESS4": {
+                "title": "Invoice To Address4",
+                "type": "string"
+              },
+              "INVOICE_TO_CONTACT": {
+                "title": "Invoice To Contact",
+                "type": "string"
+              },
+              "INVOICE_TO_LOCATION": {
+                "title": "Invoice To Location",
+                "type": "string"
+              },
+              "INVOICE_TO_ORG": {
+                "title": "Invoice To Org",
+                "type": "string"
+              },
+              "INVOICE_TO_STATE": {
+                "title": "Invoice To State",
+                "type": "string"
+              },
+              "INVOICE_TO_CITY": {
+                "title": "Invoice To City",
+                "type": "string"
+              },
+              "INVOICE_TO_ZIP": {
+                "title": "Invoice To Zip",
+                "type": "string"
+              },
+              "INVOICE_TO_COUNTRY": {
+                "title": "Invoice To Country",
+                "type": "string"
+              },
+              "INVOICE_TO_COUNTY": {
+                "title": "Invoice To County",
+                "type": "string"
+              },
+              "INVOICE_TO_PROVINCE": {
+                "title": "Invoice To Province",
+                "type": "string"
+              },
+              "INVOICING_RULE": {
+                "title": "Invoicing Rule",
+                "type": "string"
+              },
+              "ITEM_TYPE": {
+                "title": "Item Type",
+                "type": "string"
+              },
+              "LINE_TYPE": {
+                "title": "Line Type",
+                "type": "string"
+              },
+              "OVER_SHIP_REASON": {
+                "title": "Over Ship Reason",
+                "type": "string"
+              },
+              "PAYMENT_TERM": {
+                "title": "Payment Term",
+                "type": "string"
+              },
+              "PRICE_LIST": {
+                "title": "Price List",
+                "type": "string"
+              },
+              "PROJECT": {
+                "title": "Project",
+                "type": "string"
+              },
+              "RETURN_REASON": {
+                "title": "Return Reason",
+                "type": "string"
+              },
+              "RLA_SCHEDULE_TYPE": {
+                "title": "Rla Schedule Type",
+                "type": "string"
+              },
+              "SALESREP": {
+                "title": "Salesrep",
+                "type": "string"
+              },
+              "SHIPMENT_PRIORITY": {
+                "title": "Shipment Priority",
+                "type": "string"
+              },
+              "SHIP_FROM_ADDRESS1": {
+                "title": "Ship From Address1",
+                "type": "string"
+              },
+              "SHIP_FROM_ADDRESS2": {
+                "title": "Ship From Address2",
+                "type": "string"
+              },
+              "SHIP_FROM_ADDRESS3": {
+                "title": "Ship From Address3",
+                "type": "string"
+              },
+              "SHIP_FROM_ADDRESS4": {
+                "title": "Ship From Address4",
+                "type": "string"
+              },
+              "SHIP_FROM_LOCATION": {
+                "title": "Ship From Location",
+                "type": "string"
+              },
+              "SHIP_FROM_CITY": {
+                "title": "Ship From City",
+                "type": "string"
+              },
+              "SHIP_FROM_POSTAL_CODE": {
+                "title": "Ship From Postal Code",
+                "type": "string"
+              },
+              "SHIP_FROM_COUNTRY": {
+                "title": "Ship From Country",
+                "type": "string"
+              },
+              "SHIP_FROM_REGION1": {
+                "title": "Ship From Region1",
+                "type": "string"
+              },
+              "SHIP_FROM_REGION2": {
+                "title": "Ship From Region2",
+                "type": "string"
+              },
+              "SHIP_FROM_REGION3": {
+                "title": "Ship From Region3",
+                "type": "string"
+              },
+              "SHIP_FROM_ORG": {
+                "title": "Ship From Org",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS1": {
+                "title": "Ship To Address1",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS2": {
+                "title": "Ship To Address2",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS3": {
+                "title": "Ship To Address3",
+                "type": "string"
+              },
+              "SHIP_TO_ADDRESS4": {
+                "title": "Ship To Address4",
+                "type": "string"
+              },
+              "SHIP_TO_STATE": {
+                "title": "Ship To State",
+                "type": "string"
+              },
+              "SHIP_TO_COUNTRY": {
+                "title": "Ship To Country",
+                "type": "string"
+              },
+              "SHIP_TO_ZIP": {
+                "title": "Ship To Zip",
+                "type": "string"
+              },
+              "SHIP_TO_COUNTY": {
+                "title": "Ship To County",
+                "type": "string"
+              },
+              "SHIP_TO_PROVINCE": {
+                "title": "Ship To Province",
+                "type": "string"
+              },
+              "SHIP_TO_CITY": {
+                "title": "Ship To City",
+                "type": "string"
+              },
+              "SHIP_TO_CONTACT": {
+                "title": "Ship To Contact",
+                "type": "string"
+              },
+              "SHIP_TO_CONTACT_LAST_NAME": {
+                "title": "Ship To Contact Last Name",
+                "type": "string"
+              },
+              "SHIP_TO_CONTACT_FIRST_NAME": {
+                "title": "Ship To Contact First Name",
+                "type": "string"
+              },
+              "SHIP_TO_LOCATION": {
+                "title": "Ship To Location",
+                "type": "string"
+              },
+              "SHIP_TO_ORG": {
+                "title": "Ship To Org",
+                "type": "string"
+              },
+              "SOURCE_TYPE": {
+                "title": "Source Type",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ADDRESS1": {
+                "title": "Intermed Ship To Address1",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ADDRESS2": {
+                "title": "Intermed Ship To Address2",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ADDRESS3": {
+                "title": "Intermed Ship To Address3",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ADDRESS4": {
+                "title": "Intermed Ship To Address4",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_CONTACT": {
+                "title": "Intermed Ship To Contact",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_LOCATION": {
+                "title": "Intermed Ship To Location",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ORG": {
+                "title": "Intermed Ship To Org",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_STATE": {
+                "title": "Intermed Ship To State",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_CITY": {
+                "title": "Intermed Ship To City",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_ZIP": {
+                "title": "Intermed Ship To Zip",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_COUNTRY": {
+                "title": "Intermed Ship To Country",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_COUNTY": {
+                "title": "Intermed Ship To County",
+                "type": "string"
+              },
+              "INTERMED_SHIP_TO_PROVINCE": {
+                "title": "Intermed Ship To Province",
+                "type": "string"
+              },
+              "SOLD_TO_ORG": {
+                "title": "Sold To Org",
+                "type": "string"
+              },
+              "SOLD_FROM_ORG": {
+                "title": "Sold From Org",
+                "type": "string"
+              },
+              "TASK": {
+                "title": "Task",
+                "type": "string"
+              },
+              "TAX_EXEMPT": {
+                "title": "Tax Exempt",
+                "type": "string"
+              },
+              "TAX_EXEMPT_REASON": {
+                "title": "Tax Exempt Reason",
+                "type": "string"
+              },
+              "TAX_POINT": {
+                "title": "Tax Point",
+                "type": "string"
+              },
+              "VEH_CUS_ITEM_CUM_KEY": {
+                "title": "Veh Cus Item Cum Key",
+                "type": "string"
+              },
+              "VISIBLE_DEMAND": {
+                "title": "Visible Demand",
+                "type": "string"
+              },
+              "CUSTOMER_PAYMENT_TERM": {
+                "title": "Customer Payment Term",
+                "type": "string"
+              },
+              "REF_ORDER_NUMBER": {
+                "title": "Ref Order Number",
+                "type": "string"
+              },
+              "REF_LINE_NUMBER": {
+                "title": "Ref Line Number",
+                "type": "string"
+              },
+              "REF_SHIPMENT_NUMBER": {
+                "title": "Ref Shipment Number",
+                "type": "string"
+              },
+              "REF_OPTION_NUMBER": {
+                "title": "Ref Option Number",
+                "type": "string"
+              },
+              "REF_COMPONENT_NUMBER": {
+                "title": "Ref Component Number",
+                "type": "string"
+              },
+              "REF_INVOICE_NUMBER": {
+                "title": "Ref Invoice Number",
+                "type": "string"
+              },
+              "REF_INVOICE_LINE_NUMBER": {
+                "title": "Ref Invoice Line Number",
+                "type": "string"
+              },
+              "CREDIT_INVOICE_NUMBER": {
+                "title": "Credit Invoice Number",
+                "type": "string"
+              },
+              "TAX_GROUP": {
+                "title": "Tax Group",
+                "type": "string"
+              },
+              "STATUS": {
+                "title": "Status",
+                "type": "string"
+              },
+              "FREIGHT_CARRIER": {
+                "title": "Freight Carrier",
+                "type": "string"
+              },
+              "SHIPPING_METHOD": {
+                "title": "Shipping Method",
+                "type": "string"
+              },
+              "CALCULATE_PRICE_DESCR": {
+                "title": "Calculate Price Descr",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_NAME": {
+                "title": "Ship To Customer Name",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_NAME": {
+                "title": "Invoice To Customer Name",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_NUMBER": {
+                "title": "Ship To Customer Number",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_NUMBER": {
+                "title": "Invoice To Customer Number",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_ID": {
+                "title": "Ship To Customer Id",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_ID": {
+                "title": "Invoice To Customer Id",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_ID": {
+                "title": "Deliver To Customer Id",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_NUMBER": {
+                "title": "Deliver To Customer Number",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_NAME": {
+                "title": "Deliver To Customer Name",
+                "type": "string"
+              },
+              "ORIGINAL_ORDERED_ITEM": {
+                "title": "Original Ordered Item",
+                "type": "string"
+              },
+              "ORIGINAL_INVENTORY_ITEM": {
+                "title": "Original Inventory Item",
+                "type": "string"
+              },
+              "ORIGINAL_ITEM_IDENTIFIER_TYPE": {
+                "title": "Original Item Identifier Type",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_NUMBER_OI": {
+                "title": "Deliver To Customer Number Oi",
+                "type": "string"
+              },
+              "DELIVER_TO_CUSTOMER_NAME_OI": {
+                "title": "Deliver To Customer Name Oi",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_NUMBER_OI": {
+                "title": "Ship To Customer Number Oi",
+                "type": "string"
+              },
+              "SHIP_TO_CUSTOMER_NAME_OI": {
+                "title": "Ship To Customer Name Oi",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_NUMBER_OI": {
+                "title": "Invoice To Customer Number Oi",
+                "type": "string"
+              },
+              "INVOICE_TO_CUSTOMER_NAME_OI": {
+                "title": "Invoice To Customer Name Oi",
+                "type": "string"
+              },
+              "ITEM_RELATIONSHIP_TYPE_DSP": {
+                "title": "Item Relationship Type Dsp",
+                "type": "string"
+              },
+              "TRANSACTION_PHASE": {
+                "title": "Transaction Phase",
+                "type": "string"
+              },
+              "END_CUSTOMER_NAME": {
+                "title": "End Customer Name",
+                "type": "string"
+              },
+              "END_CUSTOMER_NUMBER": {
+                "title": "End Customer Number",
+                "type": "string"
+              },
+              "END_CUSTOMER_CONTACT": {
+                "title": "End Customer Contact",
+                "type": "string"
+              },
+              "END_CUST_CONTACT_LAST_NAME": {
+                "title": "End Cust Contact Last Name",
+                "type": "string"
+              },
+              "END_CUST_CONTACT_FIRST_NAME": {
+                "title": "End Cust Contact First Name",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_ADDRESS1": {
+                "title": "End Customer Site Address1",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_ADDRESS2": {
+                "title": "End Customer Site Address2",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_ADDRESS3": {
+                "title": "End Customer Site Address3",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_ADDRESS4": {
+                "title": "End Customer Site Address4",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_LOCATION": {
+                "title": "End Customer Site Location",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_STATE": {
+                "title": "End Customer Site State",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_COUNTRY": {
+                "title": "End Customer Site Country",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_ZIP": {
+                "title": "End Customer Site Zip",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_COUNTY": {
+                "title": "End Customer Site County",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_PROVINCE": {
+                "title": "End Customer Site Province",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_CITY": {
+                "title": "End Customer Site City",
+                "type": "string"
+              },
+              "END_CUSTOMER_SITE_POSTAL_CODE": {
+                "title": "End Customer Site Postal Code",
+                "type": "string"
+              },
+              "BLANKET_AGREEMENT_NAME": {
+                "title": "Blanket Agreement Name",
+                "type": "string"
+              },
+              "IB_OWNER_DSP": {
+                "title": "Ib Owner Dsp",
+                "type": "string"
+              },
+              "IB_CURRENT_LOCATION_DSP": {
+                "title": "Ib Current Location Dsp",
+                "type": "string"
+              },
+              "IB_INSTALLED_AT_LOCATION_DSP": {
+                "title": "Ib Installed At Location Dsp",
+                "type": "string"
+              },
+              "SERVICE_PERIOD_DSP": {
+                "title": "Service Period Dsp",
+                "type": "string"
+              },
+              "SERVICE_REFERENCE_TYPE": {
+                "title": "Service Reference Type",
+                "type": "string"
+              },
+              "CHARGE_PERIODICITY_DSP": {
+                "title": "Charge Periodicity Dsp",
+                "type": "string"
+              },
+              "CONTINGENCY_NAME": {
+                "title": "Contingency Name",
+                "type": "string"
+              },
+              "CONTINGENCY_DESCRIPTION": {
+                "title": "Contingency Description",
+                "type": "string"
+              },
+              "EXPIRATION_EVENT_ATTRIBUTE": {
+                "title": "Expiration Event Attribute",
+                "type": "string"
+              },
+              "REVREC_EVENT": {
+                "title": "Revrec Event",
+                "type": "string"
+              },
+              "ACCEPTED_BY_DSP": {
+                "title": "Accepted By Dsp",
+                "type": "string"
+              },
+              "SERVICE_BILL_OPTION": {
+                "title": "Service Bill Option",
+                "type": "string"
+              },
+              "SERVICE_BILL_PROFILE": {
+                "title": "Service Bill Profile",
+                "type": "string"
+              },
+              "SERVICE_COV_TEMPLATE": {
+                "title": "Service Cov Template",
+                "type": "string"
+              },
+              "SERVICE_SUBS_TEMPLATE": {
+                "title": "Service Subs Template",
+                "type": "string"
+              },
+              "EQUIPMENT_NUMBER": {
+                "title": "Equipment Number",
+                "type": "string"
+              },
+              "SCAC": {
+                "title": "Scac",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_ADJ_TBL": {
+      "title": "X Line Adj Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_ADJ_TBL_ITEM": {
+          "title": "X Line Adj Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "AUTOMATIC_FLAG": {
+                "title": "Automatic Flag",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "DISCOUNT_ID": {
+                "title": "Discount Id",
+                "type": "string"
+              },
+              "DISCOUNT_LINE_ID": {
+                "title": "Discount Line Id",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PERCENT": {
+                "title": "Percent",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "ORIG_SYS_DISCOUNT_REF": {
+                "title": "Orig Sys Discount Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "LIST_HEADER_ID": {
+                "title": "List Header Id",
+                "type": "string"
+              },
+              "LIST_LINE_ID": {
+                "title": "List Line Id",
+                "type": "string"
+              },
+              "LIST_LINE_TYPE_CODE": {
+                "title": "List Line Type Code",
+                "type": "string"
+              },
+              "MODIFIER_MECHANISM_TYPE_CODE": {
+                "title": "Modifier Mechanism Type Code",
+                "type": "string"
+              },
+              "MODIFIED_FROM": {
+                "title": "Modified From",
+                "type": "string"
+              },
+              "MODIFIED_TO": {
+                "title": "Modified To",
+                "type": "string"
+              },
+              "UPDATED_FLAG": {
+                "title": "Updated Flag",
+                "type": "string"
+              },
+              "UPDATE_ALLOWED": {
+                "title": "Update Allowed",
+                "type": "string"
+              },
+              "APPLIED_FLAG": {
+                "title": "Applied Flag",
+                "type": "string"
+              },
+              "CHANGE_REASON_CODE": {
+                "title": "Change Reason Code",
+                "type": "string"
+              },
+              "CHANGE_REASON_TEXT": {
+                "title": "Change Reason Text",
+                "type": "string"
+              },
+              "OPERAND": {
+                "title": "Operand",
+                "type": "string"
+              },
+              "OPERAND_PER_PQTY": {
+                "title": "Operand Per Pqty",
+                "type": "string"
+              },
+              "ARITHMETIC_OPERATOR": {
+                "title": "Arithmetic Operator",
+                "type": "string"
+              },
+              "COST_ID": {
+                "title": "Cost Id",
+                "type": "string"
+              },
+              "TAX_CODE": {
+                "title": "Tax Code",
+                "type": "string"
+              },
+              "TAX_EXEMPT_FLAG": {
+                "title": "Tax Exempt Flag",
+                "type": "string"
+              },
+              "TAX_EXEMPT_NUMBER": {
+                "title": "Tax Exempt Number",
+                "type": "string"
+              },
+              "TAX_EXEMPT_REASON_CODE": {
+                "title": "Tax Exempt Reason Code",
+                "type": "string"
+              },
+              "PARENT_ADJUSTMENT_ID": {
+                "title": "Parent Adjustment Id",
+                "type": "string"
+              },
+              "INVOICED_FLAG": {
+                "title": "Invoiced Flag",
+                "type": "string"
+              },
+              "ESTIMATED_FLAG": {
+                "title": "Estimated Flag",
+                "type": "string"
+              },
+              "INC_IN_SALES_PERFORMANCE": {
+                "title": "Inc In Sales Performance",
+                "type": "string"
+              },
+              "SPLIT_ACTION_CODE": {
+                "title": "Split Action Code",
+                "type": "string"
+              },
+              "ADJUSTED_AMOUNT": {
+                "title": "Adjusted Amount",
+                "type": "string"
+              },
+              "ADJUSTED_AMOUNT_PER_PQTY": {
+                "title": "Adjusted Amount Per Pqty",
+                "type": "string"
+              },
+              "PRICING_PHASE_ID": {
+                "title": "Pricing Phase Id",
+                "type": "string"
+              },
+              "CHARGE_TYPE_CODE": {
+                "title": "Charge Type Code",
+                "type": "string"
+              },
+              "CHARGE_SUBTYPE_CODE": {
+                "title": "Charge Subtype Code",
+                "type": "string"
+              },
+              "LIST_LINE_NO": {
+                "title": "List Line No",
+                "type": "string"
+              },
+              "SOURCE_SYSTEM_CODE": {
+                "title": "Source System Code",
+                "type": "string"
+              },
+              "BENEFIT_QTY": {
+                "title": "Benefit Qty",
+                "type": "string"
+              },
+              "BENEFIT_UOM_CODE": {
+                "title": "Benefit Uom Code",
+                "type": "string"
+              },
+              "PRINT_ON_INVOICE_FLAG": {
+                "title": "Print On Invoice Flag",
+                "type": "string"
+              },
+              "EXPIRATION_DATE": {
+                "title": "Expiration Date",
+                "type": "string"
+              },
+              "REBATE_TRANSACTION_TYPE_CODE": {
+                "title": "Rebate Transaction Type Code",
+                "type": "string"
+              },
+              "REBATE_TRANSACTION_REFERENCE": {
+                "title": "Rebate Transaction Reference",
+                "type": "string"
+              },
+              "REBATE_PAYMENT_SYSTEM_CODE": {
+                "title": "Rebate Payment System Code",
+                "type": "string"
+              },
+              "REDEEMED_DATE": {
+                "title": "Redeemed Date",
+                "type": "string"
+              },
+              "REDEEMED_FLAG": {
+                "title": "Redeemed Flag",
+                "type": "string"
+              },
+              "ACCRUAL_FLAG": {
+                "title": "Accrual Flag",
+                "type": "string"
+              },
+              "RANGE_BREAK_QUANTITY": {
+                "title": "Range Break Quantity",
+                "type": "string"
+              },
+              "ACCRUAL_CONVERSION_RATE": {
+                "title": "Accrual Conversion Rate",
+                "type": "string"
+              },
+              "PRICING_GROUP_SEQUENCE": {
+                "title": "Pricing Group Sequence",
+                "type": "string"
+              },
+              "MODIFIER_LEVEL_CODE": {
+                "title": "Modifier Level Code",
+                "type": "string"
+              },
+              "PRICE_BREAK_TYPE_CODE": {
+                "title": "Price Break Type Code",
+                "type": "string"
+              },
+              "SUBSTITUTION_ATTRIBUTE": {
+                "title": "Substitution Attribute",
+                "type": "string"
+              },
+              "PRORATION_TYPE_CODE": {
+                "title": "Proration Type Code",
+                "type": "string"
+              },
+              "CREDIT_OR_CHARGE_FLAG": {
+                "title": "Credit Or Charge Flag",
+                "type": "string"
+              },
+              "INCLUDE_ON_RETURNS_FLAG": {
+                "title": "Include On Returns Flag",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE1": {
+                "title": "Ac Attribute1",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE2": {
+                "title": "Ac Attribute2",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE3": {
+                "title": "Ac Attribute3",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE4": {
+                "title": "Ac Attribute4",
+                "type": "string"
+              },
+              "AC_ATTRIBUTE5": {
+                "title": "Ac Attribute5",
+                "type": "string"
+              },
+              "AC_CONTEXT": {
+                "title": "Ac Context",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "GROUP_VALUE": {
+                "title": "Group Value",
+                "type": "string"
+              },
+              "INVOICED_AMOUNT": {
+                "title": "Invoiced Amount",
+                "type": "string"
+              },
+              "RETROBILL_REQUEST_ID": {
+                "title": "Retrobill Request Id",
+                "type": "string"
+              },
+              "TAX_RATE_ID": {
+                "title": "Tax Rate Id",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_ADJ_VAL_TBL": {
+      "title": "X Line Adj Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_ADJ_VAL_TBL_ITEM": {
+          "title": "X Line Adj Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "DISCOUNT": {
+                "title": "Discount",
+                "type": "string"
+              },
+              "LIST_NAME": {
+                "title": "List Name",
+                "type": "string"
+              },
+              "VERSION_NO": {
+                "title": "Version No",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_PRICE_ATT_TBL": {
+      "title": "X Line Price Att Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_PRICE_ATT_TBL_ITEM": {
+          "title": "X Line Price Att Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ORDER_PRICE_ATTRIB_ID": {
+                "title": "Order Price Attrib Id",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "FLEX_TITLE": {
+                "title": "Flex Title",
+                "type": "string"
+              },
+              "PRICING_CONTEXT": {
+                "title": "Pricing Context",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE1": {
+                "title": "Pricing Attribute1",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE2": {
+                "title": "Pricing Attribute2",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE3": {
+                "title": "Pricing Attribute3",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE4": {
+                "title": "Pricing Attribute4",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE5": {
+                "title": "Pricing Attribute5",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "OVERRIDE_FLAG": {
+                "title": "Override Flag",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "ORIG_SYS_ATTS_REF": {
+                "title": "Orig Sys Atts Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_ADJ_ATT_TBL": {
+      "title": "X Line Adj Att Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_ADJ_ATT_TBL_ITEM": {
+          "title": "X Line Adj Att Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PRICE_ADJ_ATTRIB_ID": {
+                "title": "Price Adj Attrib Id",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "ADJ_INDEX": {
+                "title": "Adj Index",
+                "type": "string"
+              },
+              "FLEX_TITLE": {
+                "title": "Flex Title",
+                "type": "string"
+              },
+              "PRICING_CONTEXT": {
+                "title": "Pricing Context",
+                "type": "string"
+              },
+              "PRICING_ATTRIBUTE": {
+                "title": "Pricing Attribute",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "PRICING_ATTR_VALUE_FROM": {
+                "title": "Pricing Attr Value From",
+                "type": "string"
+              },
+              "PRICING_ATTR_VALUE_TO": {
+                "title": "Pricing Attr Value To",
+                "type": "string"
+              },
+              "COMPARISON_OPERATOR": {
+                "title": "Comparison Operator",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "GROUPING_NUMBER": {
+                "title": "Grouping Number",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_ADJ_ASSOC_TBL": {
+      "title": "X Line Adj Assoc Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_ADJ_ASSOC_TBL_ITEM": {
+          "title": "X Line Adj Assoc Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PRICE_ADJ_ASSOC_ID": {
+                "title": "Price Adj Assoc Id",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "PRICE_ADJUSTMENT_ID": {
+                "title": "Price Adjustment Id",
+                "type": "string"
+              },
+              "ADJ_INDEX": {
+                "title": "Adj Index",
+                "type": "string"
+              },
+              "RLTD_PRICE_ADJ_ID": {
+                "title": "Rltd Price Adj Id",
+                "type": "string"
+              },
+              "RLTD_ADJ_INDEX": {
+                "title": "Rltd Adj Index",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_SCREDIT_TBL": {
+      "title": "X Line Scredit Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_SCREDIT_TBL_ITEM": {
+          "title": "X Line Scredit Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "DW_UPDATE_ADVICE_FLAG": {
+                "title": "Dw Update Advice Flag",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PERCENT": {
+                "title": "Percent",
+                "type": "string"
+              },
+              "SALESREP_ID": {
+                "title": "Salesrep Id",
+                "type": "string"
+              },
+              "SALES_CREDIT_ID": {
+                "title": "Sales Credit Id",
+                "type": "string"
+              },
+              "SALES_CREDIT_TYPE_ID": {
+                "title": "Sales Credit Type Id",
+                "type": "string"
+              },
+              "WH_UPDATE_DATE": {
+                "title": "Wh Update Date",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "ORIG_SYS_CREDIT_REF": {
+                "title": "Orig Sys Credit Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "CHANGE_REASON": {
+                "title": "Change Reason",
+                "type": "string"
+              },
+              "CHANGE_COMMENTS": {
+                "title": "Change Comments",
+                "type": "string"
+              },
+              "SALES_GROUP_ID": {
+                "title": "Sales Group Id",
+                "type": "string"
+              },
+              "SALES_GROUP_UPDATED_FLAG": {
+                "title": "Sales Group Updated Flag",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_SCREDIT_VAL_TBL": {
+      "title": "X Line Scredit Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_SCREDIT_VAL_TBL_ITEM": {
+          "title": "X Line Scredit Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SALESREP": {
+                "title": "Salesrep",
+                "type": "string"
+              },
+              "SALES_CREDIT_TYPE": {
+                "title": "Sales Credit Type",
+                "type": "string"
+              },
+              "SALES_GROUP": {
+                "title": "Sales Group",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_PAYMENT_TBL": {
+      "title": "X Line Payment Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_PAYMENT_TBL_ITEM": {
+          "title": "X Line Payment Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "CHECK_NUMBER": {
+                "title": "Check Number",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_APPROVAL_CODE": {
+                "title": "Credit Card Approval Code",
+                "type": "string"
+              },
+              "CREDIT_CARD_APPROVAL_DATE": {
+                "title": "Credit Card Approval Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_CODE": {
+                "title": "Credit Card Code",
+                "type": "string"
+              },
+              "CREDIT_CARD_EXPIRATION_DATE": {
+                "title": "Credit Card Expiration Date",
+                "type": "string"
+              },
+              "CREDIT_CARD_HOLDER_NAME": {
+                "title": "Credit Card Holder Name",
+                "type": "string"
+              },
+              "CREDIT_CARD_NUMBER": {
+                "title": "Credit Card Number",
+                "type": "string"
+              },
+              "COMMITMENT_APPLIED_AMOUNT": {
+                "title": "Commitment Applied Amount",
+                "type": "string"
+              },
+              "COMMITMENT_INTERFACED_AMOUNT": {
+                "title": "Commitment Interfaced Amount",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "HEADER_ID": {
+                "title": "Header Id",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "PAYMENT_NUMBER": {
+                "title": "Payment Number",
+                "type": "string"
+              },
+              "PAYMENT_AMOUNT": {
+                "title": "Payment Amount",
+                "type": "string"
+              },
+              "PAYMENT_COLLECTION_EVENT": {
+                "title": "Payment Collection Event",
+                "type": "string"
+              },
+              "PAYMENT_LEVEL_CODE": {
+                "title": "Payment Level Code",
+                "type": "string"
+              },
+              "PAYMENT_TRX_ID": {
+                "title": "Payment Trx Id",
+                "type": "string"
+              },
+              "PAYMENT_TYPE_CODE": {
+                "title": "Payment Type Code",
+                "type": "string"
+              },
+              "PAYMENT_SET_ID": {
+                "title": "Payment Set Id",
+                "type": "string"
+              },
+              "PREPAID_AMOUNT": {
+                "title": "Prepaid Amount",
+                "type": "string"
+              },
+              "PROGRAM_APPLICATION_ID": {
+                "title": "Program Application Id",
+                "type": "string"
+              },
+              "PROGRAM_ID": {
+                "title": "Program Id",
+                "type": "string"
+              },
+              "PROGRAM_UPDATE_DATE": {
+                "title": "Program Update Date",
+                "type": "string"
+              },
+              "RECEIPT_METHOD_ID": {
+                "title": "Receipt Method Id",
+                "type": "string"
+              },
+              "REQUEST_ID": {
+                "title": "Request Id",
+                "type": "string"
+              },
+              "TANGIBLE_ID": {
+                "title": "Tangible Id",
+                "type": "string"
+              },
+              "ORIG_SYS_PAYMENT_REF": {
+                "title": "Orig Sys Payment Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "DEFER_PAYMENT_PROCESSING_FLAG": {
+                "title": "Defer Payment Processing Flag",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              },
+              "TRXN_EXTENSION_ID": {
+                "title": "Trxn Extension Id",
+                "type": "string"
+              },
+              "INSTRUMENT_SECURITY_CODE": {
+                "title": "Instrument Security Code",
+                "type": "string"
+              },
+              "CC_INSTRUMENT_ID": {
+                "title": "Cc Instrument Id",
+                "type": "string"
+              },
+              "CC_INSTRUMENT_ASSIGNMENT_ID": {
+                "title": "Cc Instrument Assignment Id",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LINE_PAYMENT_VAL_TBL": {
+      "title": "X Line Payment Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_LINE_PAYMENT_VAL_TBL_ITEM": {
+          "title": "X Line Payment Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "PAYMENT_COLLECTION_EVENT_NAME": {
+                "title": "Payment Collection Event Name",
+                "type": "string"
+              },
+              "RECEIPT_METHOD": {
+                "title": "Receipt Method",
+                "type": "string"
+              },
+              "PAYMENT_TYPE": {
+                "title": "Payment Type",
+                "type": "string"
+              },
+              "COMMITMENT": {
+                "title": "Commitment",
+                "type": "string"
+              },
+              "PAYMENT_PERCENTAGE": {
+                "title": "Payment Percentage",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LOT_SERIAL_TBL": {
+      "title": "X Lot Serial Tbl",
+      "type": "object",
+      "properties": {
+        "X_LOT_SERIAL_TBL_ITEM": {
+          "title": "X Lot Serial Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ATTRIBUTE1": {
+                "title": "Attribute1",
+                "type": "string"
+              },
+              "ATTRIBUTE2": {
+                "title": "Attribute2",
+                "type": "string"
+              },
+              "ATTRIBUTE3": {
+                "title": "Attribute3",
+                "type": "string"
+              },
+              "ATTRIBUTE4": {
+                "title": "Attribute4",
+                "type": "string"
+              },
+              "ATTRIBUTE5": {
+                "title": "Attribute5",
+                "type": "string"
+              },
+              "CONTEXT": {
+                "title": "Context",
+                "type": "string"
+              },
+              "CREATED_BY": {
+                "title": "Created By",
+                "type": "string"
+              },
+              "CREATION_DATE": {
+                "title": "Creation Date",
+                "type": "string"
+              },
+              "FROM_SERIAL_NUMBER": {
+                "title": "From Serial Number",
+                "type": "string"
+              },
+              "LAST_UPDATED_BY": {
+                "title": "Last Updated By",
+                "type": "string"
+              },
+              "LAST_UPDATE_DATE": {
+                "title": "Last Update Date",
+                "type": "string"
+              },
+              "LAST_UPDATE_LOGIN": {
+                "title": "Last Update Login",
+                "type": "string"
+              },
+              "LINE_ID": {
+                "title": "Line Id",
+                "type": "string"
+              },
+              "LOT_NUMBER": {
+                "title": "Lot Number",
+                "type": "string"
+              },
+              "SUBLOT_NUMBER": {
+                "title": "Sublot Number",
+                "type": "string"
+              },
+              "LOT_SERIAL_ID": {
+                "title": "Lot Serial Id",
+                "type": "string"
+              },
+              "QUANTITY": {
+                "title": "Quantity",
+                "type": "string"
+              },
+              "QUANTITY2": {
+                "title": "Quantity2",
+                "type": "string"
+              },
+              "TO_SERIAL_NUMBER": {
+                "title": "To Serial Number",
+                "type": "string"
+              },
+              "RETURN_STATUS": {
+                "title": "Return Status",
+                "type": "string"
+              },
+              "DB_FLAG": {
+                "title": "Db Flag",
+                "type": "string"
+              },
+              "OPERATION": {
+                "title": "Operation",
+                "type": "string"
+              },
+              "LINE_INDEX": {
+                "title": "Line Index",
+                "type": "string"
+              },
+              "ORIG_SYS_LOTSERIAL_REF": {
+                "title": "Orig Sys Lotserial Ref",
+                "type": "string"
+              },
+              "CHANGE_REQUEST_CODE": {
+                "title": "Change Request Code",
+                "type": "string"
+              },
+              "STATUS_FLAG": {
+                "title": "Status Flag",
+                "type": "string"
+              },
+              "LINE_SET_ID": {
+                "title": "Line Set Id",
+                "type": "string"
+              },
+              "LOCK_CONTROL": {
+                "title": "Lock Control",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "X_LOT_SERIAL_VAL_TBL": {
+      "title": "X Lot Serial Val Tbl",
+      "type": "object",
+      "properties": {
+        "X_LOT_SERIAL_VAL_TBL_ITEM": {
+          "title": "X Lot Serial Val Tbl Item",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "LINE": {
+                "title": "Line",
+                "type": "string"
+              },
+              "LOT_SERIAL": {
+                "title": "Lot Serial",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "OE_INBOUND_INT_Service___GET_ORDER"
+}

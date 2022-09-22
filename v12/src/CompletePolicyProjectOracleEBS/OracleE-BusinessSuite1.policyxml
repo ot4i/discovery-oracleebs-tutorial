@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="oracleebs" policyName="OracleE-BusinessSuite1" policyTemplate="online_v1_basic">
+    <applicationType>online</applicationType>
+    <applicationVersion>v1</applicationVersion>
+    <authenticationMethod>BASIC</authenticationMethod>
+    <endpointUrl>REPLACE_WITH_YOUR_SOA_SERVICE_URL</endpointUrl>
+    <instanceId> REPLACE_WITH_YOUR_INSTANCE_NAME</instanceId>
+    <credentialName>CompletePolicyProjectOracleEBS_OracleE-BusinessSuite1</credentialName>
+  </policy>
+</policies>
